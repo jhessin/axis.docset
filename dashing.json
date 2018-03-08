@@ -9,9 +9,12 @@
         "main section dt": "Variable"
     },
     "ignore": [
-        "ABOUT"
+        "ABOUT",
+        "arguments",
+        "color",
+        "strength"
     ],
-    "icon32x32": "http://axis.netlify.com/img/favicon.png",
+    "icon32x32": "favicon.png",
     "allowJS": false,
     "ExternalURL": "http://axis.netlify.com/"
 }

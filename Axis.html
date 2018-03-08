@@ -1,21 +1,53 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf8"><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><meta name="description" content="A terse and powerful stylus library built on top of nib"><meta name="author" content="Jeff Escalante"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"><link rel="icon" type="image/png" href="http://axis.netlify.com/img/favicon.png"><title>Axis</title><link href="Axis_files/css_002.css" rel="stylesheet"><link href="Axis_files/css.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="Axis_files/build.css"></head><body><header><h1>Axis</h1><h2>a utility belt for stylus</h2></header><div class="contain"><div class="sticky-wrapper" style="height: 616px;"><nav class="stuck"><div class="logo-small"><h2>Axis</h2></div><ul><li data-id="installation"><a href="#installation" class="">Installation</a></li><li data-id="usage"><a href="#usage" class="active">Usage</a><ul style="display: block;"><li data-id="standalone"><a href="#standalone">Standalone</a></li><li data-id="accord-roots"><a href="#accord-roots">Accord &amp; Roots</a></li><li data-id="gulp"><a href="#gulp">Gulp</a></li><li data-id="grunt"><a href="#grunt">Grunt</a></li><li data-id="express"><a href="#express">Express</a></li></ul></li><li data-id="settings"><a href="#settings">Settings</a><ul style="display: none;"><a href="#settings"></a><li data-id="font-stacks"><a href="#settings"></a><a href="#font-stacks">Font stacks              </a></li><li data-id="default-font-settings"><a href="#default-font-settings">Font settings  </a></li><li data-id="colors"><a href="#colors">Colors  </a></li><li data-id="default-color"><a href="#default-color">Default color                  </a></li><li data-id="text-selection-setting"><a href="#text-selection-setting">Text selection  </a></li><li data-id="image-path"><a href="#image-path">Image path  </a></li><li data-id="ligatures"><a href="#ligatures">Ligatures  </a></li></ul></li><li data-id="easing"><a href="#easing">Easing</a></li><li data-id="buttons"><a href="#buttons">Buttons</a><ul style="display: none;"><li data-id="button-disabled"><a href="#button-disabled">button-disabled</a></li><li data-id="button"><a href="#button">button</a></li><li data-id="glossy-button"><a href="#glossy-button">glossy-button</a></li></ul></li><li data-id="code_blocks"><a href="#code_blocks">Code blocks</a><ul style="display: none;"><li data-id="code"><a href="#code">code</a></li><li data-id="pre"><a href="#pre">pre</a></li></ul></li><li data-id="forms"><a href="#forms">Forms</a><ul style="display: none;"><li data-id="autofill"><a href="#autofill">autofill</a></li><li data-id="field-error"><a href="#field-error">field-error</a></li><li data-id="field-success"><a href="#field-success">field-success</a></li><li data-id="field-warning"><a href="#field-warning">field-warning</a></li><li data-id="field"><a href="#field">field</a></li><li data-id="html5-inputs"><a href="#html5-inputs">html5-inputs</a></li><li data-id="input-disabled"><a href="#input-disabled">input-disabled</a></li><li data-id="input-error"><a href="#input-error">input-error</a></li><li data-id="input-success"><a href="#input-success">input-success</a></li><li data-id="input-warning"><a href="#input-warning">input-warning</a></li><li data-id="input"><a href="#input">input</a></li><li data-id="label"><a href="#label">label</a></li><li data-id="radio"><a href="#radio">radio</a></li><li data-id="range-input"><a href="#range-input">range-input</a></li></ul></li><li data-id="gradients"><a href="#gradients">Gradients</a><ul style="display: none;"><li data-id="gradient"><a href="#gradient">gradient</a></li><li data-id="image-gradient"><a href="#image-gradient">image-gradient</a></li></ul></li><li data-id="images"><a href="#images">Images</a><ul style="display: none;"><li data-id="bg-retina"><a href="#bg-retina">bg-retina</a></li><li data-id="bg"><a href="#bg">bg</a></li><li data-id="image-replace"><a href="#image-replace">image-replace</a></li><li data-id="sprite"><a href="#sprite">sprite</a></li></ul></li><li data-id="interaction"><a href="#interaction">Interaction</a><ul style="display: none;"><li data-id="click-down"><a href="#click-down">click-down</a></li><li data-id="click-inset"><a href="#click-inset">click-inset</a></li><li data-id="click-shadow"><a href="#click-shadow">click-shadow</a></li><li data-id="click-shrink"><a href="#click-shrink">click-shrink</a></li><li data-id="hover-color"><a href="#hover-color">hover-color</a></li><li data-id="hover-darken"><a href="#hover-darken">hover-darken</a></li><li data-id="hover-fade"><a href="#hover-fade">hover-fade</a></li><li data-id="hover-float"><a href="#hover-float">hover-float</a></li><li data-id="hover-glow"><a href="#hover-glow">hover-glow</a></li><li data-id="hover-lighten"><a href="#hover-lighten">hover-lighten</a></li><li data-id="hover-pop"><a href="#hover-pop">hover-pop</a></li><li data-id="hover-underline"><a href="#hover-underline">hover-underline</a></li></ul></li><li data-id="layout"><a href="#layout">Layout</a><ul style="display: none;"><li data-id="absolute"><a href="#absolute">absolute</a></li><li data-id="avoid-column-break"><a href="#avoid-column-break">avoid-column-break</a></li><li data-id="columns"><a href="#columns">columns</a></li><li data-id="fixed"><a href="#fixed">fixed</a></li><li data-id="group"><a href="#group">group</a></li><li data-id="inline-block"><a href="#inline-block">inline-block</a></li><li data-id="media"><a href="#media">media</a></li><li data-id="ratio-box"><a href="#ratio-box">ratio-box</a></li><li data-id="relative"><a href="#relative">relative</a></li><li data-id="rule"><a href="#rule">rule</a></li><li data-id="table-layout"><a href="#table-layout">table-layout</a></li></ul></li><li data-id="reset"><a href="#reset">Reset</a><ul style="display: none;"><li data-id="border-box-html"><a href="#border-box-html">border-box-html</a></li><li data-id="fluid-media"><a href="#fluid-media">fluid-media</a></li><li data-id="global-reset"><a href="#global-reset">global-reset</a></li><li data-id="normalize-css"><a href="#normalize-css">normalize-css</a></li><li data-id="print-styles"><a href="#print-styles">print-styles</a></li></ul></li><li data-id="tables"><a href="#tables">Tables</a><ul style="display: none;"><li data-id="table"><a href="#table">table</a></li></ul></li><li data-id="typography"><a href="#typography">Typography</a><ul style="display: none;"><li data-id="blockquote"><a href="#blockquote">blockquote</a></li><li data-id="bold"><a href="#bold">bold</a></li><li data-id="ellipsis"><a href="#ellipsis">ellipsis</a></li><li data-id="font-face"><a href="#font-face">font-face</a></li><li data-id="fs"><a href="#fs">fs</a></li><li data-id="headings"><a href="#headings">headings</a></li><li data-id="hyphenation"><a href="#hyphenation">hyphenation</a></li><li data-id="inline-list"><a href="#inline-list">inline-list</a></li><li data-id="italic"><a href="#italic">italic</a></li><li data-id="link"><a href="#link">link</a></li><li data-id="lowercase"><a href="#lowercase">lowercase</a></li><li data-id="normal"><a href="#normal">normal</a></li><li data-id="ol"><a href="#ol">ol</a></li><li data-id="paragraph"><a href="#paragraph">paragraph</a></li><li data-id="raquo"><a href="#raquo">raquo</a></li><li data-id="reset-case"><a href="#reset-case">reset-case</a></li><li data-id="reset-link"><a href="#reset-link">reset-link</a></li><li data-id="reset-list"><a href="#reset-list">reset-list</a></li><li data-id="shadow-stroke"><a href="#shadow-stroke">shadow-stroke</a></li><li data-id="small"><a href="#small">small</a></li><li data-id="text-margin"><a href="#text-margin">text-margin</a></li><li data-id="text-selection"><a href="#text-selection">text-selection</a></li><li data-id="ul"><a href="#ul">ul</a></li><li data-id="uppercase"><a href="#uppercase">uppercase</a></li></ul></li><li data-id="ui"><a href="#ui">Ui</a><ul style="display: none;"><li data-id="area"><a href="#area">area</a></li><li data-id="breadcrumb"><a href="#breadcrumb">breadcrumb</a></li><li data-id="bubble"><a href="#bubble">bubble</a></li><li data-id="figure"><a href="#figure">figure</a></li><li data-id="flash"><a href="#flash">flash</a></li><li data-id="icon-arrow"><a href="#icon-arrow">icon-arrow</a></li><li data-id="icon-x"><a href="#icon-x">icon-x</a></li><li data-id="navigation"><a href="#navigation">navigation</a></li><li data-id="notice"><a href="#notice">notice</a></li></ul></li><li data-id="utilities"><a href="#utilities">Utilities</a><ul style="display: none;"><li data-id="b"><a href="#b">b</a></li><li data-id="debug"><a href="#debug">debug</a></li><li data-id="no-select"><a href="#no-select">no-select</a></li><li data-id="open-type-ligatures"><a href="#open-type-ligatures">open-type-ligatures</a></li><li data-id="quantity-at-least"><a href="#quantity-at-least">quantity-at-least</a></li><li data-id="quantity-at-most"><a href="#quantity-at-most">quantity-at-most</a></li><li data-id="quantity-between"><a href="#quantity-between">quantity-between</a></li><li data-id="quantity-exactly"><a href="#quantity-exactly">quantity-exactly</a></li><li data-id="rem"><a href="#rem">rem</a></li><li data-id="rounded"><a href="#rounded">rounded</a></li><li data-id="transition"><a href="#transition">transition</a></li><li data-id="triangle"><a href="#triangle">triangle</a></li><li data-id="vertically-align"><a href="#vertically-align">vertically-align</a></li></ul></li></ul></nav></div><main><div class="instruction"><h1 id="installation">Installation</h1><p>You can and should install axis through <a href="http://npmjs.org/">npm</a>, which comes bundled with <a href="http://nodejs.org/">node.js</a>. You can install axis into a node project with the following command:</p>
-<pre><code class=" hljs sql">npm <span class="hljs-operator"><span class="hljs-keyword">install</span> axis <span class="hljs-comment">--save</span>
-</span></code></pre><p>You can find the full source for axis <a href="https://github.com/jenius/axis">on github, here</a>.</p>
-</div><!-- Usage--><div class="instruction"><h1 id="usage">Usage</h1><p>Axis
- comes as a very standard stylus plugin, but unfortunately there are a 
-huge variety of ways that you can use stylus plugins and it would be 
-impossible to cover them all here. But I will try to cover as many of 
-the common use cases as possible.</p>
-<p>Before we start with the different build system integrations though, I
- want to note the single option that you can initialize axis with. By 
-default, axis will auto-import itself into all your stylesheets. This is
- purely for convenience -- axis only defines mixins, so it's invisible 
-if you don't use any of it's mixins anyway. However, if you'd rather not
- have it do this, you can initialize axis with <code>{ implicit: false }</code>, then you'll need to manually <code>@import</code> it in your stylus in order to use it. Ok, on to integrations.</p>
-<h4 id="standalone">Standalone</h4><p>Using axis with a straight up stylus pipeline is fairly simple with the <a href="http://learnboost.github.io/stylus/docs/js.html#usefn">use function</a>. The code below demonstrates a simple use case.</p>
-<pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> stylus = <span class="hljs-built_in">require</span>(<span class="hljs-string">'stylus'</span>),
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="description" content="A terse and powerful stylus library built on top of nib">
+  <meta name="author" content="Jeff Escalante">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+  <link rel="icon" type="image/png" href="http://axis.netlify.com/img/favicon.png">
+  <title>Axis</title>
+  <link href="Axis_files/css_002.css" rel="stylesheet">
+  <link href="Axis_files/css.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="Axis_files/build.css">
+</head>
+
+<body>
+  <header>
+    <h1>Axis</h1>
+    <h2>a utility belt for stylus</h2>
+  </header>
+  <div class="contain">
+    <main>
+      <div class="instruction">
+        <h1 id="installation">Installation</h1>
+        <p>You can and should install axis through
+          <a href="http://npmjs.org/">npm</a>, which comes bundled with
+          <a href="http://nodejs.org/">node.js</a>. You can install axis into a node project with the following command:</p>
+        <pre><code class=" hljs sql">npm <span class="hljs-operator"><span class="hljs-keyword">install</span> axis <span class="hljs-comment">--save</span>
+</span></code></pre>
+        <p>You can find the full source for axis
+          <a href="https://github.com/jenius/axis">on github, here</a>.</p>
+      </div>
+      <!-- Usage-->
+      <div class="instruction">
+        <h1 id="usage">Usage</h1>
+        <p>Axis comes as a very standard stylus plugin, but unfortunately there are a huge variety of ways that you can use
+          stylus plugins and it would be impossible to cover them all here. But I will try to cover as many of the common
+          use cases as possible.</p>
+        <p>Before we start with the different build system integrations though, I want to note the single option that you can
+          initialize axis with. By default, axis will auto-import itself into all your stylesheets. This is purely for convenience
+          -- axis only defines mixins, so it's invisible if you don't use any of it's mixins anyway. However, if you'd rather
+          not have it do this, you can initialize axis with
+          <code>{ implicit: false }</code>, then you'll need to manually
+          <code>@import</code> it in your stylus in order to use it. Ok, on to integrations.</p>
+        <h4 id="standalone">Standalone</h4>
+        <p>Using axis with a straight up stylus pipeline is fairly simple with the
+          <a href="http://learnboost.github.io/stylus/docs/js.html#usefn">use function</a>. The code below demonstrates a simple use case.</p>
+        <pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> stylus = <span class="hljs-built_in">require</span>(<span class="hljs-string">'stylus'</span>),
     axis = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axis'</span>),
     fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>);
 
@@ -25,25 +57,33 @@ stylus(code)
   .use(axis())
   .render(<span class="hljs-built_in">console</span>.log.bind(<span class="hljs-built_in">console</span>));
 </code></pre>
-<h4 id="accord-roots">Accord &amp; Roots</h4><p><a href="https://github.com/jenius/accord">Accord</a>
- is a clean and uniform interface to a large number of compiled 
-languages. It's used behind the scenes of a number of libraries, 
-including the wonderful static site build tool <a href="http://roots.cx/">roots</a>. It's stylus adapter is <a href="https://github.com/jenius/accord/blob/master/docs/stylus.md">fully documented</a>, and includes <a href="https://github.com/jenius/accord/blob/master/docs/stylus.md#use">'use'</a> similar to the direct stylus API. Here's an example of how it would look loading in axis.</p>
-<pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> accord = <span class="hljs-built_in">require</span>(<span class="hljs-string">'accord'</span>),
+        <h4 id="accord-roots">Accord &amp; Roots</h4>
+        <p>
+          <a href="https://github.com/jenius/accord">Accord</a>
+          is a clean and uniform interface to a large number of compiled languages. It's used behind the scenes of a number of libraries,
+          including the wonderful static site build tool
+          <a href="http://roots.cx/">roots</a>. It's stylus adapter is
+          <a href="https://github.com/jenius/accord/blob/master/docs/stylus.md">fully documented</a>, and includes
+          <a href="https://github.com/jenius/accord/blob/master/docs/stylus.md#use">'use'</a> similar to the direct stylus API. Here's an example of how it would look loading in axis.</p>
+        <pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> accord = <span class="hljs-built_in">require</span>(<span class="hljs-string">'accord'</span>),
     axis = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axis'</span>),
     styl = accord.load(<span class="hljs-string">'stylus'</span>);
 
 styl.renderFile(<span class="hljs-string">'/path/to/file.styl'</span>, { use: axis() })
   .then(<span class="hljs-built_in">console</span>.log.bind(<span class="hljs-built_in">console</span>))
 </code></pre>
-<p>If you are using Roots, you can just load axis in as a stylus plugin in the <code>app.coffee</code> file as such:</p>
-<pre><code class="lang-coffee hljs ">axis = <span class="hljs-built_in">require</span> <span class="hljs-string">'axis'</span>
+        <p>If you are using Roots, you can just load axis in as a stylus plugin in the
+          <code>app.coffee</code> file as such:</p>
+        <pre><code class="lang-coffee hljs ">axis = <span class="hljs-built_in">require</span> <span class="hljs-string">'axis'</span>
 
 <span class="hljs-built_in">module</span>.exports =
   <span class="hljs-attribute">stylus</span>: { <span class="hljs-attribute">use</span>: axis() }
 </code></pre>
-<h4 id="gulp">Gulp</h4><p>You can use accord directly with gulp if you'd like through the <a href="https://github.com/carrot/gulp-accord">gulp-accord</a> plugin, which can compile any of the languages accord supports, or use the <a href="https://github.com/stevelacy/gulp-stylus">gulp-stylus</a> plugin, which also uses accord under the hood. Here's how it would look with gulp-stylus:</p>
-<pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">'gulp'</span>),
+        <h4 id="gulp">Gulp</h4>
+        <p>You can use accord directly with gulp if you'd like through the
+          <a href="https://github.com/carrot/gulp-accord">gulp-accord</a> plugin, which can compile any of the languages accord supports, or use the
+          <a href="https://github.com/stevelacy/gulp-stylus">gulp-stylus</a> plugin, which also uses accord under the hood. Here's how it would look with gulp-stylus:</p>
+        <pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">'gulp'</span>),
     stylus = <span class="hljs-built_in">require</span>(<span class="hljs-string">'gulp-stylus'</span>),
     axis = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axis'</span>);
 
@@ -53,11 +93,11 @@ gulp.task(<span class="hljs-string">'default'</span>, <span class="hljs-function
   .pipe(gulp.dest(<span class="hljs-string">'./destination/folder'</span>));
 });
 </code></pre>
-<h4 id="grunt">Grunt</h4><p>Although grunt's stylus plugin doesn't use 
-accord, it takes very similar options, and will look almost the same, 
-although a lot more verbose than gulp, but that's just how grunt is. 
-Here's how a snippet of the config would look in use:</p>
-<pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> axis = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axis'</span>);
+        <h4 id="grunt">Grunt</h4>
+        <p>Although grunt's stylus plugin doesn't use accord, it takes very similar options, and will look almost the same,
+          although a lot more verbose than gulp, but that's just how grunt is. Here's how a snippet of the config would look
+          in use:</p>
+        <pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> axis = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axis'</span>);
 
 stylus: {
   compile: {
@@ -66,8 +106,12 @@ stylus: {
   }
 }
 </code></pre>
-<h4 id="express">Express</h4><p>Stylus actually has <a href="http://learnboost.github.io/stylus/docs/middleware.html">very nice documentation on its own site</a> on how to use it with express, so follow this to get stylus set up. Beyond that, just <code>use</code> axis in the pipeline as is described in the standalone section above. Example of this in action:</p>
-<pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>),
+        <h4 id="express">Express</h4>
+        <p>Stylus actually has
+          <a href="http://learnboost.github.io/stylus/docs/middleware.html">very nice documentation on its own site</a> on how to use it with express, so follow this to get stylus set up.
+          Beyond that, just
+          <code>use</code> axis in the pipeline as is described in the standalone section above. Example of this in action:</p>
+        <pre><code class="lang-js hljs "><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">'express'</span>),
     stylus = <span class="hljs-built_in">require</span>(<span class="hljs-string">'stylus'</span>),
     axis = <span class="hljs-built_in">require</span>(<span class="hljs-string">'axis'</span>);
 
@@ -85,230 +129,1443 @@ app.use(stylus.middleware({
     .use(axis());
 }
 </code></pre>
-<p>If there's another build pipeline that you are struggling to get axis integrated with, <a href="https://github.com/jenius/axis-www">open up an issue</a>, and we can try to add instructions here!</p>
-</div><!-- Settings  --><div class="intro"><h1 id="settings">Settings</h1><p>Axis has a simple built-in settings file with common variables shared across <the>mixins. Overwrite any of these defaults in your project where needed.</the><document></document></p></div><div class="instruction"><h4 id="font-stacks">Font Stacks</h4>
-<p>Shortcuts to common font stacks.</p>
-<pre><code class="lang-stylus hljs php"><span class="hljs-variable">$helvtica</span>-neue = <span class="hljs-string">"Helvetica Neue"</span>, HelveticaNeue, Helvetica, Arial, sans-serif
+        <p>If there's another build pipeline that you are struggling to get axis integrated with,
+          <a href="https://github.com/jenius/axis-www">open up an issue</a>, and we can try to add instructions here!</p>
+      </div>
+      <!-- Settings  -->
+      <div class="intro">
+        <h1 id="settings">Settings</h1>
+        <p>Axis has a simple built-in settings file with common variables shared across
+          <the>mixins. Overwrite any of these defaults in your project where needed.</the>
+          <document></document>
+        </p>
+      </div>
+      <div class="instruction">
+        <h4 id="font-stacks">Font Stacks</h4>
+        <p>Shortcuts to common font stacks.</p>
+        <pre><code class="lang-stylus hljs php"><span class="hljs-variable">$helvtica</span>-neue = <span class="hljs-string">"Helvetica Neue"</span>, HelveticaNeue, Helvetica, Arial, sans-serif
 <span class="hljs-variable">$helvetica</span> = <span class="hljs-string">"Helvetica Neue"</span>, Helvetica, Arial, sans-serif
 <span class="hljs-variable">$georgia</span> = Georgia, Cambria, <span class="hljs-string">"Times New Roman"</span>, Times, serif
 <span class="hljs-variable">$lucidia</span>-grande = <span class="hljs-string">"Lucida Grande"</span>, Tahoma, Verdana, Arial, sans-serif
 <span class="hljs-variable">$monospace</span> = unquote(<span class="hljs-string">"'Bitstream Vera Sans Mono', Consolas, Courier, monospace"</span>)
 <span class="hljs-variable">$verdana</span> = Verdana, Geneva, sans-serif
 </code></pre>
-<h4 id="default-font-settings">Default Font Settings</h4>
-<p>Some reasonable defaults for typography.</p>
-<pre><code class="lang-stylus hljs php"><span class="hljs-variable">$font</span>-stack = <span class="hljs-variable">$helvetica</span>-neue
+        <h4 id="default-font-settings">Default Font Settings</h4>
+        <p>Some reasonable defaults for typography.</p>
+        <pre><code class="lang-stylus hljs php"><span class="hljs-variable">$font</span>-stack = <span class="hljs-variable">$helvetica</span>-neue
 <span class="hljs-variable">$font</span>-size = <span class="hljs-number">16</span>
 <span class="hljs-variable">$font</span>-color = <span class="hljs-comment">#555</span>
 </code></pre>
-<h4 id="colors">Colors</h4>
-<p>Axis provides an alternative pallete to default html colors. These 
-are accessible as variables or by calling the color name directly. ie: <code>background: teal</code>. Based on <a href="http://clrs.cc/">http://clrs.cc</a> (slightly modded).</p>
-<ul class="colors"><li class="navy"><code>$navy = #001F3F </code></li><li class="blue"><code>$blue = #0074D9 </code></li><li class="aqua"><code>$aqua = #7FDBFF </code></li><li class="teal"><code>$teal = #39CCCC </code></li><li class="olive"> <code>$olive = #3D9970 </code></li><li class="green"><code>$green = #2ECC40 </code></li><li class="lime"><code>$lime = #01FF70 </code></li><li class="yellow"><code>$yellow = #FFDC00          </code></li><li class="orange"> <code>$orange = #FF851B </code></li><li class="red"><code>$red = #D13F19 </code></li><li class="maroon"><code>$maroon = #85144B</code></li><li class="fuchsia"><code>$fuchsia = #F012BE</code></li><li class="purple"><code>$purple = #B10DC9</code></li><li class="white"><code>$white = #FFFFFF  </code></li><li class="silver"><code>$silver = #DDDDDD     </code></li><li class="gray"><code>$gray = #AAAAAA  </code></li><li class="black">     <code>$black = #222222 </code></li></ul><div class="tip"><h5>Did you know?</h5><p> </p><p>There are <a href="http://www.w3schools.com/html/html_colornames.asp">140 named hex colors</a> like <strong>honeydew</strong>, <strong>tomato</strong>, and <strong>mistyrose</strong>. Need inspiration when naming your own custom color variables? Try <a href="http://chir.ag/projects/name-that-color/">Name that Color</a>.                                                   </p>
-<p></p></div><h4 id="default-color">Default color</h4>
-<pre><code class=" hljs php"><span class="hljs-variable">$default</span>-color = <span class="hljs-variable">$blue</span>
-</code></pre><p>This sets the color for various primary elements. Used in <a href="#blockquote">blockquote</a>, <a href="#button">button</a>, <a href="#figure">figure</a>, <a href="#link">link</a>, <a href="#hover-glow">hover-glow</a></p>
-<h4 id="text-selection-setting">Text selection</h4><pre><code class=" hljs php"><span class="hljs-variable">$text</span>-selection = <span class="hljs-variable">$blue</span>
-</code></pre><p>Used in <a href="#text-selection">text-selection</a> this sets the text highlight color.</p>
-<h4 id="image-path">Image path</h4>
-<pre><code class=" hljs php"><span class="hljs-variable">$img</span>-path = <span class="hljs-string">''</span>
-</code></pre><p>This custom image base path is used in <a href="#image-replace">image-replace</a>, <a href="#bg">bg</a>, &amp; <a href="#bg-retina">bg-retina</a>. It's handy for your custom seletors and mixins as well.</p>
-<h4 id="ligatures">Ligatures</h4>
-<pre><code class=" hljs php"><span class="hljs-variable">$ligatures</span> = <span class="hljs-string">'false'</span>
-</code></pre><p>Enables Opentype ligatures. Used in <a href="#paragraph">paragraph</a>.</p>
-</div><!-- Easing--><div class="intro"><h1 id="easing">Easing</h1><p>While
- the dieties of css have been kind enough to provide us with a couple of
- basic easing functions for transitions, some of us like to go all out 
-on crazy easing effects. If you fit this description, do not fret, axis 
-has got you covered in that department.</p></div><div class="ease-container"><div class="ease-in-quad"><h6>$ease-in-quad</h6><span></span></div><div class="ease-in-cubic"><h6>$ease-in-cubic</h6><span></span></div><div class="ease-in-quart"><h6>$ease-in-quart</h6><span></span></div><div class="ease-in-quint"><h6>$ease-in-quint</h6><span></span></div><div class="ease-in-sine"><h6>$ease-in-sine</h6><span></span></div><div class="ease-in-expo"><h6>$ease-in-expo</h6><span></span></div><div class="ease-in-circ"><h6>$ease-in-circ</h6><span></span></div><div class="ease-in-back"><h6>$ease-in-back</h6><span></span></div><div class="ease-in-swift"><h6>$ease-in-swift</h6><span></span></div><div class="ease-out-quad"><h6>$ease-out-quad</h6><span></span></div><div class="ease-out-cubic"><h6>$ease-out-cubic</h6><span></span></div><div class="ease-out-quart"><h6>$ease-out-quart</h6><span></span></div><div class="ease-out-quint"><h6>$ease-out-quint</h6><span></span></div><div class="ease-out-sine"><h6>$ease-out-sine</h6><span></span></div><div class="ease-out-expo"><h6>$ease-out-expo</h6><span></span></div><div class="ease-out-circ"><h6>$ease-out-circ</h6><span></span></div><div class="ease-out-back"><h6>$ease-out-back</h6><span></span></div><div class="ease-out-swift"><h6>$ease-out-swift</h6><span></span></div><div class="ease-in-out-quad"><h6>$ease-in-out-quad</h6><span></span></div><div class="ease-in-out-cubic"><h6>$ease-in-out-cubic</h6><span></span></div><div class="ease-in-out-quart"><h6>$ease-in-out-quart</h6><span></span></div><div class="ease-in-out-quint"><h6>$ease-in-out-quint</h6><span></span></div><div class="ease-in-out-sine"><h6>$ease-in-out-sine</h6><span></span></div><div class="ease-in-out-expo"><h6>$ease-in-out-expo</h6><span></span></div><div class="ease-in-out-circ"><h6>$ease-in-out-circ</h6><span></span></div><div class="ease-in-out-back"><h6>$ease-in-out-back</h6><span></span></div><div class="ease-in-out-swift"><h6>$ease-in-out-swift</h6><span></span></div></div><!-- Buttons--><div class="intro"><h1 id="buttons">Buttons</h1><p>Axis'
- buttons are extremely flexible to be able to fit any situation. They 
-come in two flavors, the basic default button and the glossy button.</p></div><section><h3 id="button-disabled">button-disabled()</h3><p>Add
- this mixin to a button and it will make the button appear to be 
-disabled. Try attaching to a class like .disabled and adding that class 
-to the button.</p><h4>Examples</h4><div class="example"><pre>.disabled
-  button-disabled()</pre><div class="el"><div class="btn-disabled">don't click me : (</div></div></div></section><hr><section><h3 id="button">button($color,$size,$text-color)</h3><p>The basic button mixin, flat and simple, but scales very well to any size and can be quite flexible using options passed in.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Any CSS color value, default blue.</dd><dt>$size</dt><dd>Font
- size, no unit. Used to scale all other properties. You can also use a 
-string, either "small", "medium", or "large". Default is 14.</dd><dt>$text-color</dt><dd>Color of the text on the button. Default is either black or white depending on the darkness of the background color.</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
-  button()</pre><div class="el"><div class="btn">click me!</div></div></div><div class="example"><pre>.selector
-  button: green 'large'</pre><div class="el"><div class="btn2">click me!</div></div></div></section><hr><section><h3 id="glossy-button">glossy-button($color,$size,$text-color)</h3><p>A more fancy button style. This button has more swagger than your momma's uncle's cousin.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Any CSS color value, default blue.</dd><dt>$size</dt><dd>Font size, no unit. Used to scale all other properties. Default 14.</dd><dt>$text-color</dt><dd>Color
- of the text on the button. Default is either black or white depending 
-on the darkness of the background color. Sometimes this contrast 
-detection doesn't do exactly what you want though, so you can override 
-it with textColor.</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
-  glossy-button()</pre><div class="el"><div class="glossy-btn">click me!</div></div></div><div class="example"><pre>.selector
-  glossy-button: blue 'large'</pre><div class="el"><div class="glossy-btn2">click me!</div></div></div><div class="example"><pre>.selector
-  glossy-button: orange 18 white</pre><div class="el"><div class="glossy-btn3">click me!</div></div></div><div class="example"><pre>.selector
-  glossy-button($color: orange, $text-color: white)</pre><div class="el"><div class="glossy-btn4">click me!</div></div></div></section><!-- Code Blocks--><div class="intro"><h1 id="code_blocks">Code Blocks</h1><p>A small collection of simple and polished styles for code blocks.</p></div><section><h3 id="code">code($color)</h3><p>Basic styles for inline code blocks, with a customizable color.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>The color of the element, default red.</dd></dl><h4>Examples</h4><div class="example"><pre>code
-  code()</pre><div class="el">Here's an <span class="code">inline code</span> block</div></div><div class="example"><pre>code
-  code: blue</pre><div class="el">Here's <span class="code2">another</span> one</div></div></section><hr><section><h3 id="pre">pre()</h3><p>Basic styles for a multiline code block, ready for syntax highlighting.</p><h4>Examples</h4><div class="example"><pre>pre
-  pre()</pre><div class="el"><div class="pre">this is so meta</div></div></div></section><!-- Forms--><div class="intro"><h1 id="forms">Forms</h1><p>Forms
- are a huge pain. This light set of mixins attempt to eliminate some of 
-the pain without forcing your hand in regards to markup structure.</p></div><section><h3 id="autofill">autofill($background,$color)</h3><p>When
- forms are auto-filled, the background color for the inputs (ie: pale 
-yellow) can be very jarring, especially if you have a dark background.  
-This allows you to override that.</p><h4>Parameters</h4><dl><dt>$background</dt><dd>Background color. Default is blue, but you'll probably want to change this.</dd><dt>$color</dt><dd>Text color. Default is white.</dd></dl><h4>Examples</h4><div class="example"><pre>input
-  autofill(green, white)</pre><div class="el"><div><label>Email: </label><input name="email" class="input" type="text"></div></div></div></section><hr><section><h3 id="field-error">field-error($color)</h3><p>If
- you are wrapping labels and inputs in a '.field' div, this makes life 
-even easier. Makes the label text as well as the input field highlight 
-red.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color that it uses to highlight. Default is red.</dd></dl><h4>Examples</h4><div class="example"><pre>form .field.error
-  field-error()</pre><div class="el"><div class="field-error"><label>Name:</label><input value="Mr. T" type="text"></div></div></div><div class="example"><pre>form .field.error
-  field-error: #FA7346</pre><div class="el"><div class="field-error2"><label>Location:</label><input value="Nowhere" type="text"></div></div></div></section><hr><section><h3 id="field-success">field-success($color)</h3><p>If
- you are wrapping labels and inputs in a '.field' div, you can now 
-increase your users' feeling of joy upon successful entry of some 
-information. Makes the label text as well as the input field highlight 
-green.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color that it uses to highlight. Default is green.</dd></dl><h4>Examples</h4><div class="example"><pre>form .field.success
-  field-success()</pre><div class="el"><div class="field-success"><label>Name:</label><input value="My Real Name" type="text"></div></div></div><div class="example"><pre>form .field.success
-  field-success: #9DF49E</pre><div class="el"><div class="field-success2"><label>Location:</label><input value="New York City" type="text"></div></div></div></section><hr><section><h3 id="field-warning">field-warning($color)</h3><p>If
- you are wrapping labels and inputs in a '.field' div, this makes 
-warning users even easier, wow. Makes the label text as well as the 
-input field highlight yellow.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color that it uses to highlight. Default is yellow.</dd></dl><h4>Examples</h4><div class="example"><pre>form .field.warning
-  field-warning()</pre><div class="el"><div class="field-warning"><label>Name: </label><input value="C-3P0" type="text"></div></div></div><div class="example"><pre>form .field.warning
-  field-warning: #FA7346</pre><div class="el"><div class="field-warning2"><label>Location: </label><input value="Space" type="text"></div></div></div></section><hr><section><h3 id="field">field($direction,$width)</h3><p>Often
- times it's easier to wrap your input and label in a div so they can be 
-floated, positioned, and manipulated without screwing up the rest of the
- form. That's what this mixin is for - put it on a div (perhaps with a 
-class of 'field') that wraps a label and an input.</p><h4>Parameters</h4><dl><dt>$direction</dt><dd>The direction in which you'd like the text and input to be aligned. Takes either 'left' or 'right', default is 'right'.</dd><dt>$width</dt><dd>Width of the div. Default is 370px.</dd></dl><h4>Examples</h4><div class="example"><pre>.field
-  field()</pre><div class="el"><div class="field"><label>Wow:</label><input type="text"></div></div></div><div class="example"><pre>.field
-  field: right 300px</pre><div class="el"><div class="field2"><label>Amaze:</label><input type="text"></div></div></div></section><hr><section><h3 id="html5-inputs">html5-inputs()</h3><p>Block
- mixin that renders all the types of input fields and text areas, even 
-the special html5 ones like date, email, url, tel, etc so you don't need
- to type them all out manually.</p><h4>Examples</h4><div class="example"><pre>+html5-inputs()
-  input()</pre><div class="el"><div class="html5-inputs"><input type="date"></div></div></div></section><hr><section><h3 id="input-disabled">input-disabled()</h3><p>Makes
- your input appear to be disabled. Note that you also need to add 
-'disabled' to your html tag in order for it to actually be disabled.</p><h4>Examples</h4><div class="example"><pre>.disabled
-  input-disabled()</pre><div class="el"><input class="input-disabled" placeholder="cant touch this" disabled="disabled" type="text"></div></div></section><hr><section><h3 id="input-error">input-error(color)</h3><p>When
- someone screwed it up, you gotta show them how it is. Put this on an 
-input to make it clear that something bad has happened. Best implemented
- in an '.error' class or something like that.</p><h4>Parameters</h4><dl><dt>color</dt><dd>Color that it uses to highlight. Default is red.</dd></dl><h4>Examples</h4><div class="example"><pre>form .error
-  input-error()</pre><div class="el"><input class="input-error" value="oh no!" type="text"></div></div><div class="example"><pre>form .error
-  input-error: #F99987</pre><div class="el"><input class="input-error2" value="you really messed up now" type="text"></div></div></section><hr><section><h3 id="input-success">input-success(color)</h3><p>Great success, very naice! Best implemented in a '.success' class or something similar.</p><h4>Parameters</h4><dl><dt>color</dt><dd>Color that it uses to highlight. Default is green.</dd></dl><h4>Examples</h4><div class="example"><pre>form .success
-  input-success()</pre><div class="el"><input class="input-success" value="whooooo" type="text"></div></div><div class="example"><pre>form .success
-  input-success: #9DF49E</pre><div class="el"><input class="input-success2" value="I am the winner" type="text"></div></div></section><hr><section><h3 id="input-warning">input-warning($color)</h3><p>Ok,
- so maybe you didn't *totally* mess it up, but at very least you deserve
- a warning. Best implemented in a '.warning' class or something similar.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color that it uses to highlight. Default is yellow.</dd></dl><h4>Examples</h4><div class="example"><pre>form .warning
-  input-warning()</pre><div class="el"><input class="input-warning" value="shoot" type="text"></div></div><div class="example"><pre>form .warning
-  input-warning: #F8DE75</pre><div class="el"><input class="input-warning2" value="this looks questionable" type="text"></div></div></section><hr><section><h3 id="input">input($color,$width)</h3><p>A general purpose mixin for text inputs. Provides an nice attractive default style that's easily customizable.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color theme, shows up on focus. Defaults to aqua</dd><dt>$width</dt><dd>Self-explanitory, defaults to 250px</dd></dl><h4>Examples</h4><div class="example"><pre>input[type='text']
-  input()</pre><div class="el"><input class="input" placeholder="wow" type="text"></div></div><div class="example"><pre>input[type='text']
-  input: purple 150px</pre><div class="el"><input class="input2" placeholder="amaze" type="text"></div></div></section><hr><section><h3 id="label">label($display)</h3><p>A very basic label style for your forms.</p><h4>Parameters</h4><dl><dt>$display</dt><dd>The css display property. Defaults to inline-block so the label displays next to the input, change to block to display above.</dd></dl><h4>Examples</h4><div class="example"><pre>label
-  label()</pre><div class="el"><div class="label"><label>Name:</label><input type="text"></div></div></div><div class="example"><pre>label
-  label: block</pre><div class="el"><div class="label2"><label>Password:</label><input type="password"></div></div></div></section><hr><section><h3 id="radio">radio($color)</h3><p>A
- simple reset for radio button styling across browsers. Takes a color. 
-Default color is blue. Use on the label which wraps your radio inputs.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color for the active state. Default is blue.</dd></dl><h4>Examples</h4><div class="example"><pre>label
-  radio()</pre><div class="el"><fieldset class="radio-buttons"><label for="terse" class="radio"><input id="terse" value="terse" name="quality" type="radio"><span>terse</span></label><label for="modular" class="radio"><input id="modular" value="modular" name="quality" type="radio"><span>modular</span></label><label for="powerful" class="radio"><input id="powerful" value="powerful" name="quality" type="radio"><span>powerful</span></label></fieldset></div></div><div class="example"><pre>label
-  radio(red)</pre><div class="el"><fieldset class="radio-buttons red"><label for="brooklyn" class="radio2"><input id="brooklyn" value="brooklyn" name="city" type="radio"><span>Brooklyn</span></label><label for="nashville" class="radio2"><input id="nashville" value="nashville" name="city" type="radio"><span>Nashville</span></label></fieldset></div></div></section><hr><section><h3 id="range-input">range-input($color,$track-width,$thumb-size,$track-height,$track-color)</h3><p>A clean, cross-browser styling reset for range inputs. Note: range inputs are not supported in IE9 and below.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color for the active state. Default is blue.</dd><dt>$track-width</dt><dd>Width of the track. Default is 100% of container.</dd><dt>$thumb-size</dt><dd>Size of the thumb. Default is 2em.</dd><dt>$track-height</dt><dd>Height of track. Default is .5em</dd><dt>$track-color</dt><dd>Color of track. Default is rgba(#000, .1)</dd></dl><h4>Examples</h4><div class="example"><pre>input[type='range']
-  range-input(blue, 100%, 1.5em)</pre><div class="el"><input value="50" type="range"></div></div><div class="example"><pre>.range
-  range: tomato 150px 25px 2px rgba(red, .5)</pre><div class="el"><input class="range" value="50" type="range"></div></div></section><!-- Gradients--><div class="intro"><h1 id="gradients">Gradients</h1><p>While the official <a href="http://www.w3schools.com/css/css3_gradients.asp">W3C specs on gradients</a> take care of most situations, Axis provides a couple of convenience methods for easily creating gradients.</p>
-</div><section><h3 id="gradient">gradient($color1,$color2,$strength)</h3><p>Takes
- one color and outputs a vertical gradient between the offset by 10% in 
-either direction, offset precentage customizable via 'strength' param. 
-Or takes two colors and outputs a vertical gradient that fades between 
-the two colors.</p><h4>Parameters</h4><dl><dt>$color1</dt><dd>Transitions
- starting at this color. If only this color is passed, lightens and 
-darkend by 'strength' and creates a gradient with this color as the 
-average. If you pass a second color, this is the top color and it 
-transitions to the second.</dd><dt>$color2</dt><dd>Optional, transitions from color1 to this one</dd><dt>$strength</dt><dd>Percentage
- value, if you pass one color determines how much lighter and darker the
- top and bottom of the gradient should be. Default is 10%. If you pass a
- percentage as the second value, it's interpreted as strength, not 
-color2.</dd></dl><h4>Examples</h4><div class="example"><pre>.gradient
-  gradient: red</pre><div class="el"><div class="gradient"></div></div></div><div class="example"><pre>.gradient
-  gradient: red 30%</pre><div class="el"><div class="gradient2"></div></div></div><div class="example"><pre>.gradient
-  gradient: red blue</pre><div class="el"><div class="gradient3"></div></div></div></section><hr><section><h3 id="image-gradient">image-gradient($color1,$color2,$image-path,strength)</h3><p>Exactly the same as the gradient mixin, but you can overlay an image to give it more texture.</p><h4>Parameters</h4><dl><dt>$color1</dt><dd>Transitions
- starting at this color. If only this color is passed, lightens and 
-darkend by 'strength' and creates a gradient with this color as the 
-average. If you pass a second color, this is the top color and it 
-transitions to the second.</dd><dt>$color2</dt><dd>Optional, transitions from color1 to this one</dd><dt>$image-path</dt><dd>Path
- to the image you want to overlay. It will repeat/tile, so make sure 
-there are no seams. If you pass an image path instead of a color as the 
-second argument, the args are all shifted left one spot.</dd><dt>strength</dt><dd>Percentage
- value, if you pass one color determines how much lighter and darker the
- top and bottom of the gradient should be. Default is 10%.</dd></dl><h4>Examples</h4><div class="example"><pre>.gradient
-  image-gradient: red 'pattern.svg'</pre><div class="el"><div class="image-gradient"></div></div></div><div class="example"><pre>.gradient
-  gradient: red 'pattern.svg' 30%</pre><div class="el"><div class="image-gradient2"></div></div></div><div class="example"><pre>.gradient
-  gradient: red blue 'pattern.svg'</pre><div class="el"><div class="image-gradient3"></div></div></div></section><!-- Images--><div class="intro"><h1 id="images">Images</h1><p>Some helpful tools to make dealing with images much more pleasant.</p>
-</div><section><h3 id="bg-retina">bg-retina($path,$width,$height,$args)</h3><p>Make sure the image is double the size, pass it halved numbers, and you're in the retina-clear.  </p><div class="tip"> <h5>You may not need an extra retina image:</h5> <ol> <li><a href="https://css-tricks.com/using-svg/">Use SVGs</a> whenever possible: tiny file-size, fully scalable without losing clarity. Seriously, these things are the best. </li><li>When using JPGs: double the image resolution but crank the compression more than you normally would. This often results in <b>smaller</b>
- filesize for the @2x image versus the standard image at normal 
-compression. The extra compression isn't noticeable on retina screens, 
-because of the smaller pixels. It also looks great on non-retina screens
- because of browser resampling. Sounds too good to be true right? <a href="http://codepen.io/dbox/pen/PPmPaW">See a demo here</a>.  </li></ol> </div> <p></p><h4>Parameters</h4><dl><dt>$path</dt><dd>Path to the image. If you set img-path, no need to include that twice.</dd><dt>$width</dt><dd>Width of the image. In this case it should be half the actual image's width</dd><dt>$height</dt><dd>Height of the image. In this case it should be half the actual image's height</dd><dt>$args</dt><dd>Any other arguments you might want to pass to 'background'</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
-  bg-retina: 'path/to/image.jpg' 200px 250px</pre><div class="el"><div class="bg-retina"></div></div></div></section><hr><section><h3 id="bg">bg($path,$args)</h3><p>A
- more convenient version of 'background'. Defaults to 'no-repeat' and 
-prefixes your image path with img-path if you provide one.</p><h4>Parameters</h4><dl><dt>$path</dt><dd>Path to your image, prefixed with img-path if present.</dd><dt>$args</dt><dd>Any other arguments you might pass to 'background'.</dd></dl><h4>Examples</h4><div class="example"><pre>.el
-  bg: '/path/to/image.jpg'</pre><div class="el"><div class="bg"></div></div></div></section><hr><section><h3 id="image-replace">image-replace($path,$dimensions)</h3><p>Standard
- image replacement. Pass it an image path and the image's dimensions and
- any text will be hidden in the div and it will show an image instead. 
-Uses the fanciest new method, props to Paul Irish. Only works when 
-called as a function with parens. Also aliased to 'ir'.</p><h4>Parameters</h4><dl><dt>$path</dt><dd>Path to the image. This is prefixed by img-path if set.</dd><dt>$dimensions</dt><dd>Space-separated list of pixel values defining the image's dimensions.</dd></dl><h4>Examples</h4><div class="example"><pre>h1
-  ir('path/to.image.jpg', 300px 500px)</pre><div class="el"><div class="ir">Hello there!</div></div></div></section><hr><section><h3 id="sprite">sprite($iteration,$orientation)</h3><p>Given
- a direction in which your sprites are aligned (horizontal/vertical) and
- an iteration, will measure the width/height of your first sprite frame 
-and step through to the nth next one, depending on the given iteration 
-number. Width/height must be defined for this to work (as is the case 
-for any sprite)</p><h4>Parameters</h4><dl><dt>$iteration</dt><dd>Integer, the frame number on the sprite. Will be 1/X of the total image width. Zero-indexed, so the first frame is 0.</dd><dt>$orientation</dt><dd>Whether your sprite frames are aligned horizontal or vertical. Default is 'vertical'.</dd></dl><h4>Examples</h4><div class="example"><pre>.sprite
-  sprite: 0</pre><div class="el"><div class="sprite"></div></div></div><div class="example"><pre>.sprite
-  sprite: 1 'horizontal'</pre><div class="el"><div class="sprite2"></div></div></div></section><!-- Interaction--><div class="intro"><h1 id="interaction">Interaction</h1><p>Stylus
- is unique among css preprocessors for it's ability to access values 
-from parent elements. This makes interaction-based mixins like these not
- only possible, but much more clean and DRY.</p></div><section><h3 id="click-down">click-down($distance)</h3><p>Moves element down on Y axis when clicked.</p><h4>Parameters</h4><dl><dt>$distance</dt><dd>Distance moved on Y axis. Default is 1px.</dd></dl><h4>Examples</h4><div class="example"><pre>.btn
-  click-down()</pre><div class="el"><div class="click-down">Click me</div></div></div></section><hr><section><h3 id="click-inset">click-inset($radius)</h3><p>Creates the effect of the element being pressed in on the Z axis. Recommended to be used with transition.</p><h4>Parameters</h4><dl><dt>$radius</dt><dd>Amount of the inset</dd></dl><h4>Examples</h4><div class="example"><pre>.btn
-  click-inset()</pre><div class="el"><div class="click-inset">Click me as well</div></div></div></section><hr><section><h3 id="click-shadow">click-shadow($distance)</h3><p>Creates a shadow under element while clicked/tapped. Recommended to be used with transition.</p><h4>Parameters</h4><dl><dt>$distance</dt><dd>Distance moved on Y axis. Default is 1px.</dd></dl><h4>Examples</h4><div class="example"><pre>.btn
-  click-shadow()</pre><div class="el"><div class="click-shadow">Click me too</div></div></div></section><hr><section><h3 id="click-shrink">click-shrink($distance)</h3><p>Scales an element while clicked/tapped. Gives the illusion of lowering on the z-axis. Recommended to be used with transition.</p><h4>Parameters</h4><dl><dt>$distance</dt><dd>Amount scaled down. Default is .92</dd></dl><h4>Examples</h4><div class="example"><pre>.btn
-  click-shrink()</pre><div class="el"><div class="click-shrink">Do the click</div></div></div></section><hr><section><h3 id="hover-color">hover-color($color,$force-use-color)</h3><p>Will
- swap an elements color or background color on hover. Takes a color in 
-any format as the first argument. Will first look for a background color
- to change, then a color.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>The color you want to transition to</dd><dt>$force-use-color</dt><dd>If true, chooses color over background color first. Default false.</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
+        <h4 id="colors">Colors</h4>
+        <p>Axis provides an alternative pallete to default html colors. These are accessible as variables or by calling the
+          color name directly. ie:
+          <code>background: teal</code>. Based on
+          <a href="http://clrs.cc/">http://clrs.cc</a> (slightly modded).</p>
+        <ul class="colors">
+          <li class="navy">
+            <code>$navy = #001F3F </code>
+          </li>
+          <li class="blue">
+            <code>$blue = #0074D9 </code>
+          </li>
+          <li class="aqua">
+            <code>$aqua = #7FDBFF </code>
+          </li>
+          <li class="teal">
+            <code>$teal = #39CCCC </code>
+          </li>
+          <li class="olive">
+            <code>$olive = #3D9970 </code>
+          </li>
+          <li class="green">
+            <code>$green = #2ECC40 </code>
+          </li>
+          <li class="lime">
+            <code>$lime = #01FF70 </code>
+          </li>
+          <li class="yellow">
+            <code>$yellow = #FFDC00          </code>
+          </li>
+          <li class="orange">
+            <code>$orange = #FF851B </code>
+          </li>
+          <li class="red">
+            <code>$red = #D13F19 </code>
+          </li>
+          <li class="maroon">
+            <code>$maroon = #85144B</code>
+          </li>
+          <li class="fuchsia">
+            <code>$fuchsia = #F012BE</code>
+          </li>
+          <li class="purple">
+            <code>$purple = #B10DC9</code>
+          </li>
+          <li class="white">
+            <code>$white = #FFFFFF  </code>
+          </li>
+          <li class="silver">
+            <code>$silver = #DDDDDD     </code>
+          </li>
+          <li class="gray">
+            <code>$gray = #AAAAAA  </code>
+          </li>
+          <li class="black">
+            <code>$black = #222222 </code>
+          </li>
+        </ul>
+        <div class="tip">
+          <h5>Did you know?</h5>
+          <p> </p>
+          <p>There are
+            <a href="http://www.w3schools.com/html/html_colornames.asp">140 named hex colors</a> like
+            <strong>honeydew</strong>,
+            <strong>tomato</strong>, and
+            <strong>mistyrose</strong>. Need inspiration when naming your own custom color variables? Try
+            <a href="http://chir.ag/projects/name-that-color/">Name that Color</a>. </p>
+          <p></p>
+        </div>
+        <h4 id="default-color">Default color</h4>
+        <pre><code class=" hljs php"><span class="hljs-variable">$default</span>-color = <span class="hljs-variable">$blue</span>
+</code></pre>
+        <p>This sets the color for various primary elements. Used in
+          <a href="#blockquote">blockquote</a>,
+          <a href="#button">button</a>,
+          <a href="#figure">figure</a>,
+          <a href="#link">link</a>,
+          <a href="#hover-glow">hover-glow</a>
+        </p>
+        <h4 id="text-selection-setting">Text selection</h4>
+        <pre><code class=" hljs php"><span class="hljs-variable">$text</span>-selection = <span class="hljs-variable">$blue</span>
+</code></pre>
+        <p>Used in
+          <a href="#text-selection">text-selection</a> this sets the text highlight color.</p>
+        <h4 id="image-path">Image path</h4>
+        <pre><code class=" hljs php"><span class="hljs-variable">$img</span>-path = <span class="hljs-string">''</span>
+</code></pre>
+        <p>This custom image base path is used in
+          <a href="#image-replace">image-replace</a>,
+          <a href="#bg">bg</a>, &amp;
+          <a href="#bg-retina">bg-retina</a>. It's handy for your custom seletors and mixins as well.</p>
+        <h4 id="ligatures">Ligatures</h4>
+        <pre><code class=" hljs php"><span class="hljs-variable">$ligatures</span> = <span class="hljs-string">'false'</span>
+</code></pre>
+        <p>Enables Opentype ligatures. Used in
+          <a href="#paragraph">paragraph</a>.</p>
+      </div>
+      <!-- Easing-->
+      <div class="intro">
+        <h1 id="easing">Easing</h1>
+        <p>While the dieties of css have been kind enough to provide us with a couple of basic easing functions for transitions,
+          some of us like to go all out on crazy easing effects. If you fit this description, do not fret, axis has got you
+          covered in that department.</p>
+      </div>
+      <div class="ease-container">
+        <div class="ease-in-quad">
+          <h6>$ease-in-quad</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-cubic">
+          <h6>$ease-in-cubic</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-quart">
+          <h6>$ease-in-quart</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-quint">
+          <h6>$ease-in-quint</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-sine">
+          <h6>$ease-in-sine</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-expo">
+          <h6>$ease-in-expo</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-circ">
+          <h6>$ease-in-circ</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-back">
+          <h6>$ease-in-back</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-swift">
+          <h6>$ease-in-swift</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-quad">
+          <h6>$ease-out-quad</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-cubic">
+          <h6>$ease-out-cubic</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-quart">
+          <h6>$ease-out-quart</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-quint">
+          <h6>$ease-out-quint</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-sine">
+          <h6>$ease-out-sine</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-expo">
+          <h6>$ease-out-expo</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-circ">
+          <h6>$ease-out-circ</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-back">
+          <h6>$ease-out-back</h6>
+          <span></span>
+        </div>
+        <div class="ease-out-swift">
+          <h6>$ease-out-swift</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-quad">
+          <h6>$ease-in-out-quad</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-cubic">
+          <h6>$ease-in-out-cubic</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-quart">
+          <h6>$ease-in-out-quart</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-quint">
+          <h6>$ease-in-out-quint</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-sine">
+          <h6>$ease-in-out-sine</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-expo">
+          <h6>$ease-in-out-expo</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-circ">
+          <h6>$ease-in-out-circ</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-back">
+          <h6>$ease-in-out-back</h6>
+          <span></span>
+        </div>
+        <div class="ease-in-out-swift">
+          <h6>$ease-in-out-swift</h6>
+          <span></span>
+        </div>
+      </div>
+      <!-- Buttons-->
+      <div class="intro">
+        <h1 id="buttons">Buttons</h1>
+        <p>Axis' buttons are extremely flexible to be able to fit any situation. They come in two flavors, the basic default
+          button and the glossy button.</p>
+      </div>
+      <section>
+        <h3 id="button-disabled">button-disabled()</h3>
+        <p>Add this mixin to a button and it will make the button appear to be disabled. Try attaching to a class like .disabled
+          and adding that class to the button.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.disabled
+  button-disabled()</pre>
+          <div class="el">
+            <div class="btn-disabled">don't click me : (</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="button">button($color,$size,$text-color)</h3>
+        <p>The basic button mixin, flat and simple, but scales very well to any size and can be quite flexible using options
+          passed in.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Any CSS color value, default blue.</dd>
+          <dt>$size</dt>
+          <dd>Font size, no unit. Used to scale all other properties. You can also use a string, either "small", "medium", or
+            "large". Default is 14.</dd>
+          <dt>$text-color</dt>
+          <dd>Color of the text on the button. Default is either black or white depending on the darkness of the background color.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  button()</pre>
+          <div class="el">
+            <div class="btn">click me!</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  button: green 'large'</pre>
+          <div class="el">
+            <div class="btn2">click me!</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="glossy-button">glossy-button($color,$size,$text-color)</h3>
+        <p>A more fancy button style. This button has more swagger than your momma's uncle's cousin.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Any CSS color value, default blue.</dd>
+          <dt>$size</dt>
+          <dd>Font size, no unit. Used to scale all other properties. Default 14.</dd>
+          <dt>$text-color</dt>
+          <dd>Color of the text on the button. Default is either black or white depending on the darkness of the background color.
+            Sometimes this contrast detection doesn't do exactly what you want though, so you can override it with textColor.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  glossy-button()</pre>
+          <div class="el">
+            <div class="glossy-btn">click me!</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  glossy-button: blue 'large'</pre>
+          <div class="el">
+            <div class="glossy-btn2">click me!</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  glossy-button: orange 18 white</pre>
+          <div class="el">
+            <div class="glossy-btn3">click me!</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  glossy-button($color: orange, $text-color: white)</pre>
+          <div class="el">
+            <div class="glossy-btn4">click me!</div>
+          </div>
+        </div>
+      </section>
+      <!-- Code Blocks-->
+      <div class="intro">
+        <h1 id="code_blocks">Code Blocks</h1>
+        <p>A small collection of simple and polished styles for code blocks.</p>
+      </div>
+      <section>
+        <h3 id="code">code($color)</h3>
+        <p>Basic styles for inline code blocks, with a customizable color.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>The color of the element, default red.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>code
+  code()</pre>
+          <div class="el">Here's an
+            <span class="code">inline code</span> block</div>
+        </div>
+        <div class="example">
+          <pre>code
+  code: blue</pre>
+          <div class="el">Here's
+            <span class="code2">another</span> one</div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="pre">pre()</h3>
+        <p>Basic styles for a multiline code block, ready for syntax highlighting.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>pre
+  pre()</pre>
+          <div class="el">
+            <div class="pre">this is so meta</div>
+          </div>
+        </div>
+      </section>
+      <!-- Forms-->
+      <div class="intro">
+        <h1 id="forms">Forms</h1>
+        <p>Forms are a huge pain. This light set of mixins attempt to eliminate some of the pain without forcing your hand in
+          regards to markup structure.</p>
+      </div>
+      <section>
+        <h3 id="autofill">autofill($background,$color)</h3>
+        <p>When forms are auto-filled, the background color for the inputs (ie: pale yellow) can be very jarring, especially
+          if you have a dark background. This allows you to override that.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$background</dt>
+          <dd>Background color. Default is blue, but you'll probably want to change this.</dd>
+          <dt>$color</dt>
+          <dd>Text color. Default is white.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>input
+  autofill(green, white)</pre>
+          <div class="el">
+            <div>
+              <label>Email: </label>
+              <input name="email" class="input" type="text">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="field-error">field-error($color)</h3>
+        <p>If you are wrapping labels and inputs in a '.field' div, this makes life even easier. Makes the label text as well
+          as the input field highlight red.
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color that it uses to highlight. Default is red.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>form .field.error
+  field-error()</pre>
+          <div class="el">
+            <div class="field-error">
+              <label>Name:</label>
+              <input value="Mr. T" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>form .field.error
+  field-error: #FA7346</pre>
+          <div class="el">
+            <div class="field-error2">
+              <label>Location:</label>
+              <input value="Nowhere" type="text">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="field-success">field-success($color)</h3>
+        <p>If you are wrapping labels and inputs in a '.field' div, you can now increase your users' feeling of joy upon successful
+          entry of some information. Makes the label text as well as the input field highlight green.
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color that it uses to highlight. Default is green.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>form .field.success
+  field-success()</pre>
+          <div class="el">
+            <div class="field-success">
+              <label>Name:</label>
+              <input value="My Real Name" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>form .field.success
+  field-success: #9DF49E</pre>
+          <div class="el">
+            <div class="field-success2">
+              <label>Location:</label>
+              <input value="New York City" type="text">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="field-warning">field-warning($color)</h3>
+        <p>If you are wrapping labels and inputs in a '.field' div, this makes warning users even easier, wow. Makes the label
+          text as well as the input field highlight yellow.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color that it uses to highlight. Default is yellow.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>form .field.warning
+  field-warning()</pre>
+          <div class="el">
+            <div class="field-warning">
+              <label>Name: </label>
+              <input value="C-3P0" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>form .field.warning
+  field-warning: #FA7346</pre>
+          <div class="el">
+            <div class="field-warning2">
+              <label>Location: </label>
+              <input value="Space" type="text">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="field">field($direction,$width)</h3>
+        <p>Often times it's easier to wrap your input and label in a div so they can be floated, positioned, and manipulated
+          without screwing up the rest of the form. That's what this mixin is for - put it on a div (perhaps with a class
+          of 'field') that wraps a label and an input.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$direction</dt>
+          <dd>The direction in which you'd like the text and input to be aligned. Takes either 'left' or 'right', default is
+            'right'.
+          </dd>
+          <dt>$width</dt>
+          <dd>Width of the div. Default is 370px.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.field
+  field()</pre>
+          <div class="el">
+            <div class="field">
+              <label>Wow:</label>
+              <input type="text">
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.field
+  field: right 300px</pre>
+          <div class="el">
+            <div class="field2">
+              <label>Amaze:</label>
+              <input type="text">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="html5-inputs">html5-inputs()</h3>
+        <p>Block mixin that renders all the types of input fields and text areas, even the special html5 ones like date, email,
+          url, tel, etc so you don't need to type them all out manually.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>+html5-inputs()
+  input()</pre>
+          <div class="el">
+            <div class="html5-inputs">
+              <input type="date">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="input-disabled">input-disabled()</h3>
+        <p>Makes your input appear to be disabled. Note that you also need to add 'disabled' to your html tag in order for it
+          to actually be disabled.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.disabled
+  input-disabled()</pre>
+          <div class="el">
+            <input class="input-disabled" placeholder="cant touch this" disabled="disabled" type="text">
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="input-error">input-error(color)</h3>
+        <p>When someone screwed it up, you gotta show them how it is. Put this on an input to make it clear that something bad
+          has happened. Best implemented in an '.error' class or something like that.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>color</dt>
+          <dd>Color that it uses to highlight. Default is red.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>form .error
+  input-error()</pre>
+          <div class="el">
+            <input class="input-error" value="oh no!" type="text">
+          </div>
+        </div>
+        <div class="example">
+          <pre>form .error
+  input-error: #F99987</pre>
+          <div class="el">
+            <input class="input-error2" value="you really messed up now" type="text">
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="input-success">input-success(color)</h3>
+        <p>Great success, very naice! Best implemented in a '.success' class or something similar.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>color</dt>
+          <dd>Color that it uses to highlight. Default is green.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>form .success
+  input-success()</pre>
+          <div class="el">
+            <input class="input-success" value="whooooo" type="text">
+          </div>
+        </div>
+        <div class="example">
+          <pre>form .success
+  input-success: #9DF49E</pre>
+          <div class="el">
+            <input class="input-success2" value="I am the winner" type="text">
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="input-warning">input-warning($color)</h3>
+        <p>Ok, so maybe you didn't *totally* mess it up, but at very least you deserve a warning. Best implemented in a '.warning'
+          class or something similar.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color that it uses to highlight. Default is yellow.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>form .warning
+  input-warning()</pre>
+          <div class="el">
+            <input class="input-warning" value="shoot" type="text">
+          </div>
+        </div>
+        <div class="example">
+          <pre>form .warning
+  input-warning: #F8DE75</pre>
+          <div class="el">
+            <input class="input-warning2" value="this looks questionable" type="text">
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="input">input($color,$width)</h3>
+        <p>A general purpose mixin for text inputs. Provides an nice attractive default style that's easily customizable.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color theme, shows up on focus. Defaults to aqua</dd>
+          <dt>$width</dt>
+          <dd>Self-explanitory, defaults to 250px</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>input[type='text']
+  input()</pre>
+          <div class="el">
+            <input class="input" placeholder="wow" type="text">
+          </div>
+        </div>
+        <div class="example">
+          <pre>input[type='text']
+  input: purple 150px</pre>
+          <div class="el">
+            <input class="input2" placeholder="amaze" type="text">
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="label">label($display)</h3>
+        <p>A very basic label style for your forms.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$display</dt>
+          <dd>The css display property. Defaults to inline-block so the label displays next to the input, change to block to
+            display above.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>label
+  label()</pre>
+          <div class="el">
+            <div class="label">
+              <label>Name:</label>
+              <input type="text">
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>label
+  label: block</pre>
+          <div class="el">
+            <div class="label2">
+              <label>Password:</label>
+              <input type="password">
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="radio">radio($color)</h3>
+        <p>A simple reset for radio button styling across browsers. Takes a color. Default color is blue. Use on the label which
+          wraps your radio inputs.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color for the active state. Default is blue.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>label
+  radio()</pre>
+          <div class="el">
+            <fieldset class="radio-buttons">
+              <label for="terse" class="radio">
+                <input id="terse" value="terse" name="quality" type="radio">
+                <span>terse</span>
+              </label>
+              <label for="modular" class="radio">
+                <input id="modular" value="modular" name="quality" type="radio">
+                <span>modular</span>
+              </label>
+              <label for="powerful" class="radio">
+                <input id="powerful" value="powerful" name="quality" type="radio">
+                <span>powerful</span>
+              </label>
+            </fieldset>
+          </div>
+        </div>
+        <div class="example">
+          <pre>label
+  radio(red)</pre>
+          <div class="el">
+            <fieldset class="radio-buttons red">
+              <label for="brooklyn" class="radio2">
+                <input id="brooklyn" value="brooklyn" name="city" type="radio">
+                <span>Brooklyn</span>
+              </label>
+              <label for="nashville" class="radio2">
+                <input id="nashville" value="nashville" name="city" type="radio">
+                <span>Nashville</span>
+              </label>
+            </fieldset>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="range-input">range-input($color,$track-width,$thumb-size,$track-height,$track-color)</h3>
+        <p>A clean, cross-browser styling reset for range inputs. Note: range inputs are not supported in IE9 and below.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color for the active state. Default is blue.</dd>
+          <dt>$track-width</dt>
+          <dd>Width of the track. Default is 100% of container.</dd>
+          <dt>$thumb-size</dt>
+          <dd>Size of the thumb. Default is 2em.</dd>
+          <dt>$track-height</dt>
+          <dd>Height of track. Default is .5em</dd>
+          <dt>$track-color</dt>
+          <dd>Color of track. Default is rgba(#000, .1)</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>input[type='range']
+  range-input(blue, 100%, 1.5em)</pre>
+          <div class="el">
+            <input value="50" type="range">
+          </div>
+        </div>
+        <div class="example">
+          <pre>.range
+  range: tomato 150px 25px 2px rgba(red, .5)</pre>
+          <div class="el">
+            <input class="range" value="50" type="range">
+          </div>
+        </div>
+      </section>
+      <!-- Gradients-->
+      <div class="intro">
+        <h1 id="gradients">Gradients</h1>
+        <p>While the official
+          <a href="http://www.w3schools.com/css/css3_gradients.asp">W3C specs on gradients</a> take care of most situations, Axis provides a couple of convenience methods for easily
+          creating gradients.</p>
+      </div>
+      <section>
+        <h3 id="gradient">gradient($color1,$color2,$strength)</h3>
+        <p>Takes one color and outputs a vertical gradient between the offset by 10% in either direction, offset precentage
+          customizable via 'strength' param. Or takes two colors and outputs a vertical gradient that fades between the two
+          colors.
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color1</dt>
+          <dd>Transitions starting at this color. If only this color is passed, lightens and darkend by 'strength' and creates
+            a gradient with this color as the average. If you pass a second color, this is the top color and it transitions
+            to the second.</dd>
+          <dt>$color2</dt>
+          <dd>Optional, transitions from color1 to this one</dd>
+          <dt>$strength</dt>
+          <dd>Percentage value, if you pass one color determines how much lighter and darker the top and bottom of the gradient
+            should be. Default is 10%. If you pass a percentage as the second value, it's interpreted as strength, not color2.
+          </dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.gradient
+  gradient: red</pre>
+          <div class="el">
+            <div class="gradient"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.gradient
+  gradient: red 30%</pre>
+          <div class="el">
+            <div class="gradient2"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.gradient
+  gradient: red blue</pre>
+          <div class="el">
+            <div class="gradient3"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="image-gradient">image-gradient($color1,$color2,$image-path,strength)</h3>
+        <p>Exactly the same as the gradient mixin, but you can overlay an image to give it more texture.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color1</dt>
+          <dd>Transitions starting at this color. If only this color is passed, lightens and darkend by 'strength' and creates
+            a gradient with this color as the average. If you pass a second color, this is the top color and it transitions
+            to the second.</dd>
+          <dt>$color2</dt>
+          <dd>Optional, transitions from color1 to this one</dd>
+          <dt>$image-path</dt>
+          <dd>Path to the image you want to overlay. It will repeat/tile, so make sure there are no seams. If you pass an image
+            path instead of a color as the second argument, the args are all shifted left one spot.</dd>
+          <dt>strength</dt>
+          <dd>Percentage value, if you pass one color determines how much lighter and darker the top and bottom of the gradient
+            should be. Default is 10%.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.gradient
+  image-gradient: red 'pattern.svg'</pre>
+          <div class="el">
+            <div class="image-gradient"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.gradient
+  gradient: red 'pattern.svg' 30%</pre>
+          <div class="el">
+            <div class="image-gradient2"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.gradient
+  gradient: red blue 'pattern.svg'</pre>
+          <div class="el">
+            <div class="image-gradient3"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Images-->
+      <div class="intro">
+        <h1 id="images">Images</h1>
+        <p>Some helpful tools to make dealing with images much more pleasant.</p>
+      </div>
+      <section>
+        <h3 id="bg-retina">bg-retina($path,$width,$height,$args)</h3>
+        <p>Make sure the image is double the size, pass it halved numbers, and you're in the retina-clear. </p>
+        <div class="tip">
+          <h5>You may not need an extra retina image:</h5>
+          <ol>
+            <li>
+              <a href="https://css-tricks.com/using-svg/">Use SVGs</a> whenever possible: tiny file-size, fully scalable without losing clarity. Seriously, these things
+              are the best. </li>
+            <li>When using JPGs: double the image resolution but crank the compression more than you normally would. This often
+              results in
+              <b>smaller</b>
+              filesize for the @2x image versus the standard image at normal compression. The extra compression isn't noticeable on retina
+              screens, because of the smaller pixels. It also looks great on non-retina screens because of browser resampling.
+              Sounds too good to be true right?
+              <a href="http://codepen.io/dbox/pen/PPmPaW">See a demo here</a>. </li>
+          </ol>
+        </div>
+        <p></p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$path</dt>
+          <dd>Path to the image. If you set img-path, no need to include that twice.</dd>
+          <dt>$width</dt>
+          <dd>Width of the image. In this case it should be half the actual image's width</dd>
+          <dt>$height</dt>
+          <dd>Height of the image. In this case it should be half the actual image's height</dd>
+          <dt>$args</dt>
+          <dd>Any other arguments you might want to pass to 'background'</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  bg-retina: 'path/to/image.jpg' 200px 250px</pre>
+          <div class="el">
+            <div class="bg-retina"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="bg">bg($path,$args)</h3>
+        <p>A more convenient version of 'background'. Defaults to 'no-repeat' and prefixes your image path with img-path if
+          you provide one.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$path</dt>
+          <dd>Path to your image, prefixed with img-path if present.</dd>
+          <dt>$args</dt>
+          <dd>Any other arguments you might pass to 'background'.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.el
+  bg: '/path/to/image.jpg'</pre>
+          <div class="el">
+            <div class="bg"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="image-replace">image-replace($path,$dimensions)</h3>
+        <p>Standard image replacement. Pass it an image path and the image's dimensions and any text will be hidden in the div
+          and it will show an image instead. Uses the fanciest new method, props to Paul Irish. Only works when called as
+          a function with parens. Also aliased to 'ir'.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$path</dt>
+          <dd>Path to the image. This is prefixed by img-path if set.</dd>
+          <dt>$dimensions</dt>
+          <dd>Space-separated list of pixel values defining the image's dimensions.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>h1
+  ir('path/to.image.jpg', 300px 500px)</pre>
+          <div class="el">
+            <div class="ir">Hello there!</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="sprite">sprite($iteration,$orientation)</h3>
+        <p>Given a direction in which your sprites are aligned (horizontal/vertical) and an iteration, will measure the width/height
+          of your first sprite frame and step through to the nth next one, depending on the given iteration number. Width/height
+          must be defined for this to work (as is the case for any sprite)</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$iteration</dt>
+          <dd>Integer, the frame number on the sprite. Will be 1/X of the total image width. Zero-indexed, so the first frame
+            is 0.</dd>
+          <dt>$orientation</dt>
+          <dd>Whether your sprite frames are aligned horizontal or vertical. Default is 'vertical'.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.sprite
+  sprite: 0</pre>
+          <div class="el">
+            <div class="sprite"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.sprite
+  sprite: 1 'horizontal'</pre>
+          <div class="el">
+            <div class="sprite2"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Interaction-->
+      <div class="intro">
+        <h1 id="interaction">Interaction</h1>
+        <p>Stylus is unique among css preprocessors for it's ability to access values from parent elements. This makes interaction-based
+          mixins like these not only possible, but much more clean and DRY.</p>
+      </div>
+      <section>
+        <h3 id="click-down">click-down($distance)</h3>
+        <p>Moves element down on Y axis when clicked.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$distance</dt>
+          <dd>Distance moved on Y axis. Default is 1px.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.btn
+  click-down()</pre>
+          <div class="el">
+            <div class="click-down">Click me</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="click-inset">click-inset($radius)</h3>
+        <p>Creates the effect of the element being pressed in on the Z axis. Recommended to be used with transition.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$radius</dt>
+          <dd>Amount of the inset</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.btn
+  click-inset()</pre>
+          <div class="el">
+            <div class="click-inset">Click me as well</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="click-shadow">click-shadow($distance)</h3>
+        <p>Creates a shadow under element while clicked/tapped. Recommended to be used with transition.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$distance</dt>
+          <dd>Distance moved on Y axis. Default is 1px.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.btn
+  click-shadow()</pre>
+          <div class="el">
+            <div class="click-shadow">Click me too</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="click-shrink">click-shrink($distance)</h3>
+        <p>Scales an element while clicked/tapped. Gives the illusion of lowering on the z-axis. Recommended to be used with
+          transition.
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$distance</dt>
+          <dd>Amount scaled down. Default is .92</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.btn
+  click-shrink()</pre>
+          <div class="el">
+            <div class="click-shrink">Do the click</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-color">hover-color($color,$force-use-color)</h3>
+        <p>Will swap an elements color or background color on hover. Takes a color in any format as the first argument. Will
+          first look for a background color to change, then a color.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>The color you want to transition to</dd>
+          <dt>$force-use-color</dt>
+          <dd>If true, chooses color over background color first. Default false.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
   background: red
-  hover-color: black</pre><div class="el"><div class="hover-color">background</div></div></div><div class="example"><pre>.selector
+  hover-color: black</pre>
+          <div class="el">
+            <div class="hover-color">background</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
   background: red
   color: white
-  hover-color: black true</pre><div class="el"><div class="hover-color2">foreground</div></div></div></section><hr><section><h3 id="hover-darken">hover-darken($percentage,$force-use-color)</h3><p>Darkens the color and/or background color on your element when it's hovered.</p><h4>Parameters</h4><dl><dt>$percentage</dt><dd>How much you want to darken the color. Default is 15%</dd><dt>$force-use-color</dt><dd>If true, chooses color over background color first. Default false.</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
+  hover-color: black true</pre>
+          <div class="el">
+            <div class="hover-color2">foreground</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-darken">hover-darken($percentage,$force-use-color)</h3>
+        <p>Darkens the color and/or background color on your element when it's hovered.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$percentage</dt>
+          <dd>How much you want to darken the color. Default is 15%</dd>
+          <dt>$force-use-color</dt>
+          <dd>If true, chooses color over background color first. Default false.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
   background: maroon
-  hover-darken()</pre><div class="el"><div class="hover-darken"></div></div></div><div class="example"><pre>.selector
+  hover-darken()</pre>
+          <div class="el">
+            <div class="hover-darken"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
   background: olive
-  hover-darken: 50%</pre><div class="el"><div class="hover-darken2"></div></div></div></section><hr><section><h3 id="hover-fade">hover-fade($amount)</h3><p>Changes the element's opacity on hover.</p><h4>Parameters</h4><dl><dt>$amount</dt><dd>A value between zero and 1, as css opacity normally takes. Default is .5</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
+  hover-darken: 50%</pre>
+          <div class="el">
+            <div class="hover-darken2"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-fade">hover-fade($amount)</h3>
+        <p>Changes the element's opacity on hover.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$amount</dt>
+          <dd>A value between zero and 1, as css opacity normally takes. Default is .5</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
   background: teal
-  hover-fade()</pre><div class="el"><div class="hover-fade"></div></div></div><div class="example"><pre>.selector
+  hover-fade()</pre>
+          <div class="el">
+            <div class="hover-fade"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
   background: aqua
-  hover-fade: .2</pre><div class="el"><div class="hover-fade2"></div></div></div></section><hr><section><h3 id="hover-float">hover-float()</h3><p>Floats element up on the Y axis with a little shadow below. </p><h4>Examples</h4><div class="example"><pre>.selector
-  hover-float()</pre><div class="el"><div class="hover-float"></div></div></div></section><hr><section><h3 id="hover-glow">hover-glow($color,$radius)</h3><p>Gives an element a glow on hover. Recommended to be used with transition.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color for the glow. Default is blue.</dd><dt>$radius</dt><dd>Glow radius. Default is 20px.</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
-  hover-glow()</pre><div class="el"><div class="hover-glow"></div></div></div><div class="example"><pre>.selector
-  hover-glow(purple, 100px)</pre><div class="el"><div class="hover-glow2"></div></div></div></section><hr><section><h3 id="hover-lighten">hover-lighten($percentage,$force-use-color)</h3><p>Lightens the color and/or background color on your element when it's hovered.</p><h4>Parameters</h4><dl><dt>$percentage</dt><dd>How much you want to lighten the color. Default is 15%</dd><dt>$force-use-color</dt><dd>If true, chooses color over background color first. Default false.</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
+  hover-fade: .2</pre>
+          <div class="el">
+            <div class="hover-fade2"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-float">hover-float()</h3>
+        <p>Floats element up on the Y axis with a little shadow below. </p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  hover-float()</pre>
+          <div class="el">
+            <div class="hover-float"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-glow">hover-glow($color,$radius)</h3>
+        <p>Gives an element a glow on hover. Recommended to be used with transition.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color for the glow. Default is blue.</dd>
+          <dt>$radius</dt>
+          <dd>Glow radius. Default is 20px.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  hover-glow()</pre>
+          <div class="el">
+            <div class="hover-glow"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  hover-glow(purple, 100px)</pre>
+          <div class="el">
+            <div class="hover-glow2"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-lighten">hover-lighten($percentage,$force-use-color)</h3>
+        <p>Lightens the color and/or background color on your element when it's hovered.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$percentage</dt>
+          <dd>How much you want to lighten the color. Default is 15%</dd>
+          <dt>$force-use-color</dt>
+          <dd>If true, chooses color over background color first. Default false.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
   background: fuchsia
-  hover-lighten()</pre><div class="el"><div class="hover-lighten"></div></div></div><div class="example"><pre>.selector
+  hover-lighten()</pre>
+          <div class="el">
+            <div class="hover-lighten"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
   background: yellow
-  hover-lighten: 50%</pre><div class="el"><div class="hover-lighten2"></div></div></div></section><hr><section><h3 id="hover-pop">hover-pop($scale,$rotate,$shadow)</h3><p>'Pops' the element out from the page on hover.</p><h4>Parameters</h4><dl><dt>$scale</dt><dd>Scale to which the element should increase in size. Default is 1.2</dd><dt>$rotate</dt><dd>How many degrees the element should rotate, if any. Default is 0deg.</dd><dt>$shadow</dt><dd>Boolean, whether there should be a drop shadow once the element pops off the page.</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
-  hover-pop()</pre><div class="el"><div class="hover-pop">WOW</div></div></div><div class="example"><pre>.selector
-  hover-pop: 1.5 7deg true</pre><div class="el"><div class="hover-pop2">MORE WOW</div></div></div></section><hr><section><h3 id="hover-underline">hover-underline($border-size,$type,$color)</h3><p>Creates
- a bottom border on an element on hover. Works very nicely for text like
- in a span, and can animate, but may need tweaking to get it working on 
-other elements.</p><h4>Parameters</h4><dl><dt>$border-size</dt><dd>How thick you want rh border to be. Default is 1px.</dd><dt>$type</dt><dd>Type of border you want to use. Default is solid.</dd><dt>$color</dt><dd>Color you want the border to be. Default is none (will match element color).</dd></dl><h4>Examples</h4><div class="example"><pre>.selector
-  hover-underline()</pre><div class="el"><div class="hover-underline">Hello there!</div></div></div><div class="example"><pre>.selector
-  hover-underline: 2px dotted lime</pre><div class="el"><div class="hover-underline2">Welcome to the docs</div></div></div></section><!-- Layout  --><div class="intro"><h1 id="layout">Layout</h1><p>A few mixins to help tame those layouts.</p></div><section><h3 id="absolute">absolute()</h3><p>Syntax shortcut for absolute positioning. Ported from <a href="http://nibstyl.us/docs/#position">nib</a>.</p><h4>Examples</h4><div class="example"><pre>.selector
-  absolute()</pre><div class="el"></div></div><div class="example"><pre>.selector
-  absolute: bottom right</pre><div class="el"></div></div><div class="example"><pre>.selector
-  absolute: top 50px right 5px</pre><div class="el"></div></div></section><hr><section><h3 id="avoid-column-break">avoid-column-break()</h3><p>If
- you have a list that is broken into columns, this will make sure that 
-the list item is not split across columns awkwardly. Works only in 
-webkit at the moment.</p></section><hr><section><h3 id="columns">columns($count,$gap,$width,$rule)</h3><p>A nice shortcut for smooth css3 columns.</p><h4>Parameters</h4><dl><dt>$count</dt><dd>Column count, integer.</dd><dt>$gap</dt><dd>Gap between columns, css width unit.</dd><dt>$width</dt><dd>Width of each column, css width unit.</dd><dt>$rule</dt><dd>Line between columns, takes the same arguments as a css border.</dd></dl><h4>Examples</h4><div class="example"><pre>.cols
-  columns: 3 10px 30px</pre><div class="el"><div class="cols">Fusce 
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
-fermentum massa justo sit amet risus. Cum sociis natoque penatibus et 
-magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, 
-porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh 
-ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra 
-augue.</div></div></div></section><hr><section><h3 id="fixed">fixed()</h3><p>Syntax shortcut for fixed positioning. Ported from <a href="http://nibstyl.us/docs/#position">nib</a>.</p><h4>Examples</h4><div class="example"><pre>.selector
-  fixed()</pre><div class="el"></div></div><div class="example"><pre>.selector
-  fixed: top left</pre><div class="el"></div></div><div class="example"><pre>.selector
-  fixed: bottom 50px left 5px</pre><div class="el"></div></div></section><hr><section><h3 id="group">group()</h3><p>Clearfix with a better name. Excellent for wrangling floats. Also aliased as <code>clearfix</code>. <a href="http://www.cssmojo.com/latest_new_clearfix_so_far/">Learn more here</a>.</p><h4>Examples</h4><div class="example"><pre>.selector
-  group()</pre><div class="el"></div></div><div class="example"><pre>.selector
-  clearfix()</pre><div class="el"></div></div></section><hr><section><h3 id="inline-block">inline-block()</h3><p>Display: inline-block, except it works in old browsers as well.</p></section><hr><section><h3 id="media">media($margin,$right-margin)</h3><p>Based on <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code">Nicole Sullivan's media class</a>,
- made famous by Facebook. Put this on a parent and it will split the 
-first two children left and right, like you would with perhaps a comment
- with an avatar to the left. Pass it a margin between the two. <a href="http://carrotblog.com/css-patterns-evolved">Explained fully here</a>.<br><br>This
- mixin works right when the element you apply it to has two or three 
-direct children. The first one will float to the left, the second one 
-will be to the right of the first, and third will go farthest right.</p><h4>Parameters</h4><dl><dt>$margin</dt><dd>Margin between the two floated elements</dd><dt>$right-margin</dt><dd>Optional margin to the right</dd></dl><h4>Examples</h4><div class="example"><pre>.media
-  media: 10px</pre><div class="el"><div class="media"><img src="Axis_files/1509e34005183da5ea4eb29150f341e5_400x400.jpeg"><p><strong>Steve Brule:</strong><br>In 1971 Bill Grates invented Michaelsoft.</p></div></div></div></section><hr><section><h3 id="ratio-box">ratio-box($ratio)</h3><p>This sets a specific width/height ratio. Useful on background images, iframes and Youtube embeds.</p><h4>Parameters</h4><dl><dt>$ratio</dt><dd>Fraction, width over height</dd></dl><h4>Examples</h4><div class="example"><pre>.widescreen-video
+  hover-lighten: 50%</pre>
+          <div class="el">
+            <div class="hover-lighten2"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-pop">hover-pop($scale,$rotate,$shadow)</h3>
+        <p>'Pops' the element out from the page on hover.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$scale</dt>
+          <dd>Scale to which the element should increase in size. Default is 1.2</dd>
+          <dt>$rotate</dt>
+          <dd>How many degrees the element should rotate, if any. Default is 0deg.</dd>
+          <dt>$shadow</dt>
+          <dd>Boolean, whether there should be a drop shadow once the element pops off the page.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  hover-pop()</pre>
+          <div class="el">
+            <div class="hover-pop">WOW</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  hover-pop: 1.5 7deg true</pre>
+          <div class="el">
+            <div class="hover-pop2">MORE WOW</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hover-underline">hover-underline($border-size,$type,$color)</h3>
+        <p>Creates a bottom border on an element on hover. Works very nicely for text like in a span, and can animate, but may
+          need tweaking to get it working on other elements.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$border-size</dt>
+          <dd>How thick you want rh border to be. Default is 1px.</dd>
+          <dt>$type</dt>
+          <dd>Type of border you want to use. Default is solid.</dd>
+          <dt>$color</dt>
+          <dd>Color you want the border to be. Default is none (will match element color).</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  hover-underline()</pre>
+          <div class="el">
+            <div class="hover-underline">Hello there!</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  hover-underline: 2px dotted lime</pre>
+          <div class="el">
+            <div class="hover-underline2">Welcome to the docs</div>
+          </div>
+        </div>
+      </section>
+      <!-- Layout  -->
+      <div class="intro">
+        <h1 id="layout">Layout</h1>
+        <p>A few mixins to help tame those layouts.</p>
+      </div>
+      <section>
+        <h3 id="absolute">absolute()</h3>
+        <p>Syntax shortcut for absolute positioning. Ported from
+          <a href="http://nibstyl.us/docs/#position">nib</a>.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  absolute()</pre>
+          <div class="el"></div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  absolute: bottom right</pre>
+          <div class="el"></div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  absolute: top 50px right 5px</pre>
+          <div class="el"></div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="avoid-column-break">avoid-column-break()</h3>
+        <p>If you have a list that is broken into columns, this will make sure that the list item is not split across columns
+          awkwardly. Works only in webkit at the moment.</p>
+      </section>
+      <hr>
+      <section>
+        <h3 id="columns">columns($count,$gap,$width,$rule)</h3>
+        <p>A nice shortcut for smooth css3 columns.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$count</dt>
+          <dd>Column count, integer.</dd>
+          <dt>$gap</dt>
+          <dd>Gap between columns, css width unit.</dd>
+          <dt>$width</dt>
+          <dd>Width of each column, css width unit.</dd>
+          <dt>$rule</dt>
+          <dd>Line between columns, takes the same arguments as a css border.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.cols
+  columns: 3 10px 30px</pre>
+          <div class="el">
+            <div class="cols">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta
+              ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit
+              libero, a pharetra augue.
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="fixed">fixed()</h3>
+        <p>Syntax shortcut for fixed positioning. Ported from
+          <a href="http://nibstyl.us/docs/#position">nib</a>.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  fixed()</pre>
+          <div class="el"></div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  fixed: top left</pre>
+          <div class="el"></div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  fixed: bottom 50px left 5px</pre>
+          <div class="el"></div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="group">group()</h3>
+        <p>Clearfix with a better name. Excellent for wrangling floats. Also aliased as
+          <code>clearfix</code>.
+          <a href="http://www.cssmojo.com/latest_new_clearfix_so_far/">Learn more here</a>.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  group()</pre>
+          <div class="el"></div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  clearfix()</pre>
+          <div class="el"></div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="inline-block">inline-block()</h3>
+        <p>Display: inline-block, except it works in old browsers as well.</p>
+      </section>
+      <hr>
+      <section>
+        <h3 id="media">media($margin,$right-margin)</h3>
+        <p>Based on
+          <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code">Nicole Sullivan's media class</a>, made famous by Facebook. Put this on a parent and it will split the first two
+          children left and right, like you would with perhaps a comment with an avatar to the left. Pass it a margin between
+          the two.
+          <a href="http://carrotblog.com/css-patterns-evolved">Explained fully here</a>.
+          <br>
+          <br>This mixin works right when the element you apply it to has two or three direct children. The first one will float
+          to the left, the second one will be to the right of the first, and third will go farthest right.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$margin</dt>
+          <dd>Margin between the two floated elements</dd>
+          <dt>$right-margin</dt>
+          <dd>Optional margin to the right</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.media
+  media: 10px</pre>
+          <div class="el">
+            <div class="media">
+              <img src="Axis_files/1509e34005183da5ea4eb29150f341e5_400x400.jpeg">
+              <p>
+                <strong>Steve Brule:</strong>
+                <br>In 1971 Bill Grates invented Michaelsoft.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="ratio-box">ratio-box($ratio)</h3>
+        <p>This sets a specific width/height ratio. Useful on background images, iframes and Youtube embeds.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$ratio</dt>
+          <dd>Fraction, width over height</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.widescreen-video
   ratio-box(16/9)
 
   iframe
@@ -316,145 +1573,1383 @@ will be to the right of the first, and third will go farthest right.</p><h4>Para
     top: 0
     left: 0
     width: 100%
-    height: 100%</pre><div class="el"><div class="widescreen-video"><iframe src="Axis_files/o0xr1JRZOb4.html" allowfullscreen="" frameborder="0"></iframe></div></div></div></section><hr><section><h3 id="relative">relative()</h3><p>Syntax shortcut for absolute positioning. Ported from <a href="http://nibstyl.us/docs/#position">nib</a>.</p><h4>Examples</h4><div class="example"><pre>.selector
-  relative()</pre><div class="el"></div></div><div class="example"><pre>.selector
-  relative: top auto right auto</pre><div class="el"></div></div></section><hr><section><h3 id="rule">rule($color,$spacing)</h3><p>A cleaner default for horizontal rules.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color for the line. Default is rgba(#000, .15)</dd><dt>$spacing</dt><dd>Spacing above and below. Default is 1.5em</dd></dl><h4>Examples</h4><div class="example"><pre>hr
-  rule()</pre><div class="el"><p>Text above the hr</p><p></p><hr><p>Text below the hr.</p></div></div></section><hr><section><h3 id="table-layout">table-layout($layout-type)</h3><p>Sometimes you just need a good old-fashioned table layout. <a href="http://colintoh.com/blog/display-table-anti-hero">Here's a great article</a> on the subject. </p><h4>Parameters</h4><dl><dt>$layout-type</dt><dd>fixed or auto</dd></dl><h4>Examples</h4><div class="example"><pre>ul
-  tl()</pre><div class="el"><div class="tl"><ul><li>Adding more text to this <code>li</code> will add more vertical height to the ones next to it.</li><li>I am an <code>li</code></li><li>Borders are for demo only - not part of the mixin.</li></ul></div><div class="tl"><ul><li>Evenly</li><li>space</li><li>those</li><li>sibling</li><li>elements</li></ul></div><div class="tl"><ul class="no-border"><li>No</li><li>matter</li><li>the</li><li>number</li></ul></div></div></div></section><!-- Reset--><div class="intro"><h1 id="reset">Reset</h1><p>Reset all the things.</p></div><section><h3 id="border-box-html">border-box-html()</h3><p>Add border box to every element in your project. Used in your project root. Based on <a href="http://www.paulirish.com/2012/box-sizing-border-box-ftw/">this post</a> by Paul Irish.</p></section><hr><section><h3 id="fluid-media">fluid-media()</h3><p>Use
- this mixin in the root of your project to make your img, video, and 
-iframe tags display block and fill the width of their parent container.</p></section><hr><section><h3 id="global-reset">global-reset()</h3><p>We include a handy, intelligent reset of all styles based on <a href="http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/">Eric Meyer's</a> reset. Call this at the root of your project, and never worry about reset again.</p></section><hr><section><h3 id="normalize-css">normalize-css()</h3><p>Call this at the root level to apply <a href="http://necolas.github.io/normalize.css/">normalize.css</a> v3 to your page. It's recommended that you call this at the top of your stylesheet.</p></section><hr><section><h3 id="print-styles">print-styles()</h3><p>Apply
- this mixin in the root of your stylesheet to give your site nice, clean
- print styles wrapped in a media print query so you don't have to worry 
-about it.</p></section><!-- Tables--><div class="intro"><h1 id="tables">Tables</h1><p>Right
- now, the "tables" section consists of just one mixin, for prettifying 
-tables. But who knows, it might expand in the future if people love 
-tables enough!</p></div><section><h3 id="table">table($border,$striped,$condensed)</h3><p>Ported
- directly from Twitter Bootstrap, as they did an excellent job with 
-tables. Take three fairly self-explanitory arguments, all boolean. 1st 
-makes the table bordered, 2nd adds zebra striping, and the 3rd indiated 
-whether the table is condensed or not.</p><h4>Parameters</h4><dl><dt>$border</dt><dd>Boolean - adds borders to the table. Default true.</dd><dt>$striped</dt><dd>Boolean - adds zebra striping to the table rows. Default true.</dd><dt>$condensed</dt><dd>Boolean - created a condensed table with much less extra space. Default false.</dd></dl><h4>Examples</h4><div class="example"><pre>table
-  table()</pre><div class="el"><table class="table"><tbody><tr><td>Name</td><td>Doge?</td></tr><tr><td>John Doe</td><td>Yup.</td></tr><tr><td>Foo Bar</td><td>No Way</td></tr></tbody></table></div></div><div class="example"><pre>.stable
-  table($striped: false, $condensed: true)</pre><div class="el"><table class="table2"><tbody><tr><td>Name</td><td>Doge?</td></tr><tr><td>John Doe</td><td>Yup.</td></tr><tr><td>Foo Bar</td><td>No Way</td></tr></tbody></table></div></div></section><!-- Typography--><div class="intro"><h1 id="typography">Typography</h1><p>A set of helpers and beautiful defaults for all aspects of typography.</p></div><section><h3 id="blockquote">blockquote($color)</h3><p>Nice
- styles for a blockquote, and even puts a nice hyphen in before your 
-citation. Use with a 'p' and 'cite', 'footer', or 'figcaption' inside 
-for best results.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color of the border on the left hand side. Default is blue.</dd></dl><h4>Examples</h4><div class="example"><pre>blockquote
-  blockquote()</pre><div class="el"><blockquote class="blockquote"><p>Sometimes
- people write books and they just be so wordy and so self-absorbed. I am
- not a fan of books. I would never want a book's autograph. I am a proud
- non-reader of books.</p><cite>Kanye West</cite></blockquote></div></div><div class="example"><pre>blockquote
-  blockquote: red</pre><div class="el"><blockquote class="blockquote2"><p>I
- hate when I'm on a flight and I wake up with a water bottle next to me 
-like oh great now I gotta be responsible for this water bottle.</p><cite>Kanye West</cite></blockquote></div></div></section><hr><section><h3 id="bold">bold()</h3><p>A short alias for 'font-weight: bold'. Purely convenience.</p><h4>Examples</h4><div class="example"><pre>strong
-  bold()</pre><div class="el"><div class="bold">Wow such stronk text</div></div></div></section><hr><section><h3 id="ellipsis">ellipsis($width)</h3><p>Truncate text to the width of its container using ellipsis.</p><h4>Parameters</h4><dl><dt>$width</dt><dd>Width of the container. Default is 100%</dd></dl><h4>Examples</h4><div class="example"><pre>p
-</pre><div class="el"><p>Sometimes you have to truncate verbose lines, and that's all there is to say.</p></div></div><div class="example"><pre>p
-  ellipsis()</pre><div class="el"><p class="ellipsis">Sometimes you have to truncate verbose lines, and that's all there is to say.</p></div></div><div class="example"><pre>p
-  ellipsis(50px)</pre><div class="el"><p class="ellipsis short">Sometimes you have to truncate verbose lines, and that's all there is to say.</p></div></div></section><hr><section><h3 id="font-face">font-face($name,$folder,$weight,$style)</h3><p>Super
- simple font-face declaration. Make sure to use this at the root level, 
-not within a css selector, and use the parentheses syntax. Also make 
-sure the font name matches the name of the files. Uses the <a href="http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax">fontspring syntax</a>.</p><h4>Parameters</h4><dl><dt>$name</dt><dd>Name of the font. Make sure the font files have this name, this is also what you will use in your css.</dd><dt>$folder</dt><dd>Path
- to the folder that the fonts are in. The fonts will be located by 
-joining this path and the font name, and adding extensions.</dd><dt>$weight</dt><dd>The weight you want this font to be. Default is normal.</dd><dt>$style</dt><dd>The style you want this font to be. Default is normal.</dd></dl></section><hr><section><h3 id="fs">fs($size)</h3><p>An alias for 'font-size' with a fallback for pixels in older browsers if you are using rem.</p><h4>Parameters</h4><dl><dt>$size</dt><dd>Font size that you want to pass in.</dd></dl><h4>Examples</h4><div class="example"><pre>p
-  fs: 1.5rem</pre><div class="el"><p class="fs">My milkshake brings all the boys to the yard</p></div></div></section><hr><section><h3 id="headings">headings()</h3><p>For every header level from h1 through h6, there is a mixin you can use here that will set solid scalable defaults.</p><h4>Examples</h4><div class="example"><pre>h1
-  h1()</pre><div class="el"><p class="h1">Heading 1</p></div></div><div class="example"><pre>h2
-  h2()</pre><div class="el"><p class="h2">Heading 2</p></div></div><div class="example"><pre>h3
-  h3()</pre><div class="el"><p class="h3">Heading 3</p></div></div><div class="example"><pre>h4
-  h4()</pre><div class="el"><p class="h4">Heading 4</p></div></div><div class="example"><pre>h5
-  h5()</pre><div class="el"><p class="h5">Heading 5</p></div></div><div class="example"><pre>h6
-  h6()</pre><div class="el"><p class="h6">Heading 6</p></div></div></section><hr><section><h3 id="hyphenation">hyphenation()</h3><p>Hyphenation
- is the better word-break. It’s locale aware, and inserts the hyphen 
-character at the correct place, when breaking the words. This is 
-especially important in responsive designs. It will save you from a lot 
-of ragged lines. And, no need anymore for clunky &amp; slow Javascript 
-hyphenation fallbacks.</p><div class="tip"><h5>Warning</h5><p>Hyphens are <a href="http://caniuse.com/#feat=css-hyphens">not currently supported by Chrome</a>, so unless by some miracle you don't need to support Chrome you may want to hold off on using this one.</p></div><p></p><h4>Examples</h4><div class="example"><pre>p
-  hyphenation()</pre><div class="el"><p class="hyphenation">Integer 
-posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta
- sem malesuada magna mollis euismod. Donec id elit non mi porta gravida 
-at eget metus. Cum sociis natoque penatibus et magnis dis parturient 
-montes, nascetur ridiculus mus.</p></div></div></section><hr><section><h3 id="inline-list">inline-list($spacing)</h3><p>Lists stack vertically by default. This mixin makes them stack horizontally.</p><h4>Parameters</h4><dl><dt>$spacing</dt><dd>The amount of space between each list element. Default is 20px</dd></dl><h4>Examples</h4><div class="example"><pre>ul
-  inline-list()</pre><div class="el"><ul class="inline-list"><li>One</li><li>Two</li><li>Three</li></ul></div></div><div class="example"><pre>ul
-  inline-list: 40px</pre><div class="el"><ul class="inline-list2"><li>One</li><li>Two</li><li>Three</li></ul></div></div></section><hr><section><h3 id="italic">italic()</h3><p>A short alias for 'font-style: italic'. Purely convenience.</p><h4>Examples</h4><div class="example"><pre>em
-  italic()</pre><div class="el"><div class="italic">Wow such slanty text</div></div></div></section><hr><section><h3 id="link">link($color,$style)</h3><p>A nice default style for your links.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color you want the link to be. Default is blue.</dd><dt>$style</dt><dd>Can be underline, darken, lighten, or glow. Default is "underline".</dd></dl><h4>Examples</h4><div class="example"><pre>a
-  link()</pre><div class="el"><a class="link">Click me!</a></div></div><div class="example"><pre>a
-  link: green 'darken'</pre><div class="el"><a class="link2">No click me instead!</a></div></div></section><hr><section><h3 id="lowercase">lowercase()</h3><p>A quicker alias for text-transform: lowercase. You can also use the alias 'downcase' to get the same effects.</p><h4>Examples</h4><div class="example"><pre>h5
-  lowercase()</pre><div class="el"><h5 class="lowercase">FORCED LOWERCASE</h5></div></div><div class="example"><pre>h5
-  downcase()</pre><div class="el"><h5 class="lowercase">MORE LOWERCASE HERE</h5></div></div></section><hr><section><h3 id="normal">normal()</h3><p>Resets the font weight and font style to normal, clearing anything that was bold and/or italic.</p><h4>Examples</h4><div class="example"><pre>p
+    height: 100%</pre>
+          <div class="el">
+            <div class="widescreen-video">
+              <iframe src="Axis_files/o0xr1JRZOb4.html" allowfullscreen="" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="relative">relative()</h3>
+        <p>Syntax shortcut for absolute positioning. Ported from
+          <a href="http://nibstyl.us/docs/#position">nib</a>.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  relative()</pre>
+          <div class="el"></div>
+        </div>
+        <div class="example">
+          <pre>.selector
+  relative: top auto right auto</pre>
+          <div class="el"></div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="rule">rule($color,$spacing)</h3>
+        <p>A cleaner default for horizontal rules.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color for the line. Default is rgba(#000, .15)</dd>
+          <dt>$spacing</dt>
+          <dd>Spacing above and below. Default is 1.5em</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>hr
+  rule()</pre>
+          <div class="el">
+            <p>Text above the hr</p>
+            <p></p>
+            <hr>
+            <p>Text below the hr.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="table-layout">table-layout($layout-type)</h3>
+        <p>Sometimes you just need a good old-fashioned table layout.
+          <a href="http://colintoh.com/blog/display-table-anti-hero">Here's a great article</a> on the subject. </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$layout-type</dt>
+          <dd>fixed or auto</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
+  tl()</pre>
+          <div class="el">
+            <div class="tl">
+              <ul>
+                <li>Adding more text to this
+                  <code>li</code> will add more vertical height to the ones next to it.</li>
+                <li>I am an
+                  <code>li</code>
+                </li>
+                <li>Borders are for demo only - not part of the mixin.</li>
+              </ul>
+            </div>
+            <div class="tl">
+              <ul>
+                <li>Evenly</li>
+                <li>space</li>
+                <li>those</li>
+                <li>sibling</li>
+                <li>elements</li>
+              </ul>
+            </div>
+            <div class="tl">
+              <ul class="no-border">
+                <li>No</li>
+                <li>matter</li>
+                <li>the</li>
+                <li>number</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reset-->
+      <div class="intro">
+        <h1 id="reset">Reset</h1>
+        <p>Reset all the things.</p>
+      </div>
+      <section>
+        <h3 id="border-box-html">border-box-html()</h3>
+        <p>Add border box to every element in your project. Used in your project root. Based on
+          <a href="http://www.paulirish.com/2012/box-sizing-border-box-ftw/">this post</a> by Paul Irish.</p>
+      </section>
+      <hr>
+      <section>
+        <h3 id="fluid-media">fluid-media()</h3>
+        <p>Use this mixin in the root of your project to make your img, video, and iframe tags display block and fill the width
+          of their parent container.</p>
+      </section>
+      <hr>
+      <section>
+        <h3 id="global-reset">global-reset()</h3>
+        <p>We include a handy, intelligent reset of all styles based on
+          <a href="http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/">Eric Meyer's</a> reset. Call this at the root of your project, and never worry about reset again.</p>
+      </section>
+      <hr>
+      <section>
+        <h3 id="normalize-css">normalize-css()</h3>
+        <p>Call this at the root level to apply
+          <a href="http://necolas.github.io/normalize.css/">normalize.css</a> v3 to your page. It's recommended that you call this at the top of your stylesheet.</p>
+      </section>
+      <hr>
+      <section>
+        <h3 id="print-styles">print-styles()</h3>
+        <p>Apply this mixin in the root of your stylesheet to give your site nice, clean print styles wrapped in a media print
+          query so you don't have to worry about it.</p>
+      </section>
+      <!-- Tables-->
+      <div class="intro">
+        <h1 id="tables">Tables</h1>
+        <p>Right now, the "tables" section consists of just one mixin, for prettifying tables. But who knows, it might expand
+          in the future if people love tables enough!</p>
+      </div>
+      <section>
+        <h3 id="table">table($border,$striped,$condensed)</h3>
+        <p>Ported directly from Twitter Bootstrap, as they did an excellent job with tables. Take three fairly self-explanitory
+          arguments, all boolean. 1st makes the table bordered, 2nd adds zebra striping, and the 3rd indiated whether the
+          table is condensed or not.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$border</dt>
+          <dd>Boolean - adds borders to the table. Default true.</dd>
+          <dt>$striped</dt>
+          <dd>Boolean - adds zebra striping to the table rows. Default true.</dd>
+          <dt>$condensed</dt>
+          <dd>Boolean - created a condensed table with much less extra space. Default false.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>table
+  table()</pre>
+          <div class="el">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Doge?</td>
+                </tr>
+                <tr>
+                  <td>John Doe</td>
+                  <td>Yup.</td>
+                </tr>
+                <tr>
+                  <td>Foo Bar</td>
+                  <td>No Way</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.stable
+  table($striped: false, $condensed: true)</pre>
+          <div class="el">
+            <table class="table2">
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Doge?</td>
+                </tr>
+                <tr>
+                  <td>John Doe</td>
+                  <td>Yup.</td>
+                </tr>
+                <tr>
+                  <td>Foo Bar</td>
+                  <td>No Way</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- Typography-->
+      <div class="intro">
+        <h1 id="typography">Typography</h1>
+        <p>A set of helpers and beautiful defaults for all aspects of typography.</p>
+      </div>
+      <section>
+        <h3 id="blockquote">blockquote($color)</h3>
+        <p>Nice styles for a blockquote, and even puts a nice hyphen in before your citation. Use with a 'p' and 'cite', 'footer',
+          or 'figcaption' inside for best results.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color of the border on the left hand side. Default is blue.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>blockquote
+  blockquote()</pre>
+          <div class="el">
+            <blockquote class="blockquote">
+              <p>Sometimes people write books and they just be so wordy and so self-absorbed. I am not a fan of books. I would
+                never want a book's autograph. I am a proud non-reader of books.</p>
+              <cite>Kanye West</cite>
+            </blockquote>
+          </div>
+        </div>
+        <div class="example">
+          <pre>blockquote
+  blockquote: red</pre>
+          <div class="el">
+            <blockquote class="blockquote2">
+              <p>I hate when I'm on a flight and I wake up with a water bottle next to me like oh great now I gotta be responsible
+                for this water bottle.</p>
+              <cite>Kanye West</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="bold">bold()</h3>
+        <p>A short alias for 'font-weight: bold'. Purely convenience.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>strong
+  bold()</pre>
+          <div class="el">
+            <div class="bold">Wow such stronk text</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="ellipsis">ellipsis($width)</h3>
+        <p>Truncate text to the width of its container using ellipsis.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$width</dt>
+          <dd>Width of the container. Default is 100%</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
+</pre>
+          <div class="el">
+            <p>Sometimes you have to truncate verbose lines, and that's all there is to say.</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>p
+  ellipsis()</pre>
+          <div class="el">
+            <p class="ellipsis">Sometimes you have to truncate verbose lines, and that's all there is to say.</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>p
+  ellipsis(50px)</pre>
+          <div class="el">
+            <p class="ellipsis short">Sometimes you have to truncate verbose lines, and that's all there is to say.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="font-face">font-face($name,$folder,$weight,$style)</h3>
+        <p>Super simple font-face declaration. Make sure to use this at the root level, not within a css selector, and use the
+          parentheses syntax. Also make sure the font name matches the name of the files. Uses the
+          <a href="http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax">fontspring syntax</a>.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$name</dt>
+          <dd>Name of the font. Make sure the font files have this name, this is also what you will use in your css.</dd>
+          <dt>$folder</dt>
+          <dd>Path to the folder that the fonts are in. The fonts will be located by joining this path and the font name, and
+            adding extensions.</dd>
+          <dt>$weight</dt>
+          <dd>The weight you want this font to be. Default is normal.</dd>
+          <dt>$style</dt>
+          <dd>The style you want this font to be. Default is normal.</dd>
+        </dl>
+      </section>
+      <hr>
+      <section>
+        <h3 id="fs">fs($size)</h3>
+        <p>An alias for 'font-size' with a fallback for pixels in older browsers if you are using rem.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$size</dt>
+          <dd>Font size that you want to pass in.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
+  fs: 1.5rem</pre>
+          <div class="el">
+            <p class="fs">My milkshake brings all the boys to the yard</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="headings">headings()</h3>
+        <p>For every header level from h1 through h6, there is a mixin you can use here that will set solid scalable defaults.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>h1
+  h1()</pre>
+          <div class="el">
+            <p class="h1">Heading 1</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h2
+  h2()</pre>
+          <div class="el">
+            <p class="h2">Heading 2</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h3
+  h3()</pre>
+          <div class="el">
+            <p class="h3">Heading 3</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h4
+  h4()</pre>
+          <div class="el">
+            <p class="h4">Heading 4</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h5
+  h5()</pre>
+          <div class="el">
+            <p class="h5">Heading 5</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h6
+  h6()</pre>
+          <div class="el">
+            <p class="h6">Heading 6</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="hyphenation">hyphenation()</h3>
+        <p>Hyphenation is the better word-break. It’s locale aware, and inserts the hyphen character at the correct place, when
+          breaking the words. This is especially important in responsive designs. It will save you from a lot of ragged lines.
+          And, no need anymore for clunky &amp; slow Javascript hyphenation fallbacks.</p>
+        <div class="tip">
+          <h5>Warning</h5>
+          <p>Hyphens are
+            <a href="http://caniuse.com/#feat=css-hyphens">not currently supported by Chrome</a>, so unless by some miracle you don't need to support Chrome you may want
+            to hold off on using this one.</p>
+        </div>
+        <p></p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
+  hyphenation()</pre>
+          <div class="el">
+            <p class="hyphenation">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod.
+              Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="inline-list">inline-list($spacing)</h3>
+        <p>Lists stack vertically by default. This mixin makes them stack horizontally.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$spacing</dt>
+          <dd>The amount of space between each list element. Default is 20px</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
+  inline-list()</pre>
+          <div class="el">
+            <ul class="inline-list">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+        <div class="example">
+          <pre>ul
+  inline-list: 40px</pre>
+          <div class="el">
+            <ul class="inline-list2">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="italic">italic()</h3>
+        <p>A short alias for 'font-style: italic'. Purely convenience.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>em
+  italic()</pre>
+          <div class="el">
+            <div class="italic">Wow such slanty text</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="link">link($color,$style)</h3>
+        <p>A nice default style for your links.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color you want the link to be. Default is blue.</dd>
+          <dt>$style</dt>
+          <dd>Can be underline, darken, lighten, or glow. Default is "underline".</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>a
+  link()</pre>
+          <div class="el">
+            <a class="link">Click me!</a>
+          </div>
+        </div>
+        <div class="example">
+          <pre>a
+  link: green 'darken'</pre>
+          <div class="el">
+            <a class="link2">No click me instead!</a>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="lowercase">lowercase()</h3>
+        <p>A quicker alias for text-transform: lowercase. You can also use the alias 'downcase' to get the same effects.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>h5
+  lowercase()</pre>
+          <div class="el">
+            <h5 class="lowercase">FORCED LOWERCASE</h5>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h5
+  downcase()</pre>
+          <div class="el">
+            <h5 class="lowercase">MORE LOWERCASE HERE</h5>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="normal">normal()</h3>
+        <p>Resets the font weight and font style to normal, clearing anything that was bold and/or italic.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
   bold()
-  normal()</pre><div class="el"><div class="normal">Not even a little bit bold.</div></div></div></section><hr><section><h3 id="ol">ol($style)</h3><p>Nice clean and scalable defaults for organized lists.</p><h4>Parameters</h4><dl><dt>$style</dt><dd>Any style that 'list-style-type' would normally take. Default is 'decimal'.</dd></dl><h4>Examples</h4><div class="example"><pre>ol
-  ol()</pre><div class="el"><ol class="ol"><li>One</li><li>Two</li><li>Three</li></ol></div></div><div class="example"><pre>ol
-  ol: 'upper-roman'</pre><div class="el"><ol class="ol2"><li>One</li><li>Two</li><li>Three</li></ol></div></div></section><hr><section><h3 id="paragraph">paragraph($size,$margins)</h3><p>Sets a nice size, line-height, and margins on a paragraph of text, all smoothly scalable.</p><h4>Parameters</h4><dl><dt>$size</dt><dd>Font size for the paragraph. Default is 1rem.</dd><dt>$margins</dt><dd>Boolean, whether you'd like margins to be defined or not. Default true.</dd></dl><h4>Examples</h4><div class="example"><pre>p
-  paragraph()</pre><div class="el"><p class="paragraph">Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div></div><div class="example"><pre>p
-  paragraph: 18px false</pre><div class="el"><p class="paragraph3">Nullam id dolor id nibh ultricies vehicula ut id elit.</p></div></div></section><hr><section><h3 id="raquo">raquo()</h3><p>Because technically raquo is not semantic, this mixin will add it as an :after to your element.</p><h4>Examples</h4><div class="example"><pre>h3
-  raquo()</pre><div class="el"><div class="raquo">Check this out</div></div></div></section><hr><section><h3 id="reset-case">reset-case()</h3><p>A shorter alias for text-transform: none. Resets any change in case that was previously set.</p><h4>Examples</h4><div class="example"><pre>p
+  normal()</pre>
+          <div class="el">
+            <div class="normal">Not even a little bit bold.</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="ol">ol($style)</h3>
+        <p>Nice clean and scalable defaults for organized lists.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$style</dt>
+          <dd>Any style that 'list-style-type' would normally take. Default is 'decimal'.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ol
+  ol()</pre>
+          <div class="el">
+            <ol class="ol">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ol>
+          </div>
+        </div>
+        <div class="example">
+          <pre>ol
+  ol: 'upper-roman'</pre>
+          <div class="el">
+            <ol class="ol2">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="paragraph">paragraph($size,$margins)</h3>
+        <p>Sets a nice size, line-height, and margins on a paragraph of text, all smoothly scalable.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$size</dt>
+          <dd>Font size for the paragraph. Default is 1rem.</dd>
+          <dt>$margins</dt>
+          <dd>Boolean, whether you'd like margins to be defined or not. Default true.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
+  paragraph()</pre>
+          <div class="el">
+            <p class="paragraph">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+        </div>
+        <div class="example">
+          <pre>p
+  paragraph: 18px false</pre>
+          <div class="el">
+            <p class="paragraph3">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="raquo">raquo()</h3>
+        <p>Because technically raquo is not semantic, this mixin will add it as an :after to your element.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>h3
+  raquo()</pre>
+          <div class="el">
+            <div class="raquo">Check this out</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="reset-case">reset-case()</h3>
+        <p>A shorter alias for text-transform: none. Resets any change in case that was previously set.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
   upcase()
-  reset-case()</pre><div class="el"><p class="reset-case">Normal case oh yeah.</p></div></div></section><hr><section><h3 id="reset-link">reset-link()</h3><p>Removes any styles that were previously set on links, even that annoying text-decoration.</p><h4>Examples</h4><div class="example"><pre>a
-  reset-link()</pre><div class="el"><a class="reset-link" href="#">Wow no more underline and harsh blue, amazing</a></div></div></section><hr><section><h3 id="reset-list">reset-list()</h3><p>Removes any styles that were previously set on a list, clearing out all the margins and padding that are there by default.</p><h4>Examples</h4><div class="example"><pre>ul
-  reset-list()</pre><div class="el"><ul class="reset-list"><li>One</li><li>Two</li><li>Three</li></ul></div></div></section><hr><section><h3 id="shadow-stroke">shadow-stroke($color)</h3><p>Creates an outline using text-shadow. Works best on larger text. Ported from <a href="http://nibstyl.us/docs/#shadow-stroke">nib</a>.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color of the stroke. Default is blue.</dd></dl><h4>Examples</h4><div class="example"><pre>h1
-  shadow-stroke()</pre><div class="el"><h2 class="shadow-stroke">Totally</h2><h5></h5></div></div><div class="example"><pre>h1
-  shadow-stroke(tomato)'</pre><div class="el"><h2 class="shadow-stroke red">Outlined</h2></div></div></section><hr><section><h3 id="small">small()</h3><p>A nice set of default styles for the 'small' element.</p><h4>Examples</h4><div class="example"><pre>small
-  small()</pre><div class="el"><small class="small">Wow so tiny!</small></div></div></section><hr><section><h3 id="text-margin">text-margin($size)</h3><p>Puts
- nice visually pleasing top and bottom margins on a paragraph of text. 
-Use a font-size on your element to have it magically adjust.</p><h4>Parameters</h4><dl><dt>$size</dt><dd>Override the existing font size with a custom one.</dd></dl><h4>Examples</h4><div class="example"><pre>p
+  reset-case()</pre>
+          <div class="el">
+            <p class="reset-case">Normal case oh yeah.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="reset-link">reset-link()</h3>
+        <p>Removes any styles that were previously set on links, even that annoying text-decoration.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>a
+  reset-link()</pre>
+          <div class="el">
+            <a class="reset-link" href="#">Wow no more underline and harsh blue, amazing</a>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="reset-list">reset-list()</h3>
+        <p>Removes any styles that were previously set on a list, clearing out all the margins and padding that are there by
+          default.
+        </p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
+  reset-list()</pre>
+          <div class="el">
+            <ul class="reset-list">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="shadow-stroke">shadow-stroke($color)</h3>
+        <p>Creates an outline using text-shadow. Works best on larger text. Ported from
+          <a href="http://nibstyl.us/docs/#shadow-stroke">nib</a>.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color of the stroke. Default is blue.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>h1
+  shadow-stroke()</pre>
+          <div class="el">
+            <h2 class="shadow-stroke">Totally</h2>
+            <h5></h5>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h1
+  shadow-stroke(tomato)'</pre>
+          <div class="el">
+            <h2 class="shadow-stroke red">Outlined</h2>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="small">small()</h3>
+        <p>A nice set of default styles for the 'small' element.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>small
+  small()</pre>
+          <div class="el">
+            <small class="small">Wow so tiny!</small>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="text-margin">text-margin($size)</h3>
+        <p>Puts nice visually pleasing top and bottom margins on a paragraph of text. Use a font-size on your element to have
+          it magically adjust.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$size</dt>
+          <dd>Override the existing font size with a custom one.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
   font-size: 18px
-  text-margin()</pre><div class="el"><p class="text-margin">Look at these great margins</p><p class="text-margin">So great.</p></div></div></section><hr><section><h3 id="text-selection">text-selection($color,$text-color)</h3><p>Sets
- the text select color intelligently based on the highlight-color 
-variable found in the settings file. Intended to be used at the root, 
-for the whole document rather than at one element.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Override the highlight background with a custom color. Defaults to highlight-color.</dd><dt>$text-color</dt><dd>Override the text color. Default is black or white based on contrast detection.</dd></dl><h4>Examples</h4><div class="example"><pre>text-selection()</pre><div class="el"><p class="text-selection">Try selecting me!</p></div></div></section><hr><section><h3 id="ul">ul($style)</h3><p>Nice clean and scalable defaults for unorganized lists.</p><h4>Parameters</h4><dl><dt>$style</dt><dd>Any style that 'list-style-type' would normally take. Default is 'disc'.</dd></dl><h4>Examples</h4><div class="example"><pre>ul
-  ul()</pre><div class="el"><ul class="ul"><li>One</li><li>Two</li><li>Three</li></ul></div></div><div class="example"><pre>ul
-  ul: 'square'</pre><div class="el"><ul class="ul2"><li>One</li><li>Two</li><li>Three</li></ul></div></div></section><hr><section><h3 id="uppercase">uppercase()</h3><p>A quicker alias for text-transform: uppercase. You can also use the alias 'upcase' to get the same effects.</p><h4>Examples</h4><div class="example"><pre>h5
-  uppercase()</pre><div class="el"><h5 class="uppercase">ALL CAPS HEADING</h5></div></div><div class="example"><pre>h5
-  upcase()</pre><div class="el"><h5 class="uppercase2">ANOTHER ALL CAPS HEADING</h5></div></div></section><!-- Ui--><div class="intro"><h1 id="ui">UI</h1><p>A set of flexible shortcuts for creating common UI elements.</p></div><section><h3 id="area">area($color)</h3><p>Just a nice little area for you to put content in. Rounded corners, box with a light grey background by default.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Background color of the area. Default is #F5F5F5.</dd></dl><h4>Examples</h4><div class="example"><pre>p
-  area()</pre><div class="el"><div class="area">Hi there, I'm a nicely defined little area of content!</div></div></div><div class="example"><pre>p
-  area: #D4EEF8</pre><div class="el"><div class="area2">I'm an area with a kind of blue-ish background.</div></div></div></section><hr><section><h3 id="breadcrumb">breadcrumb($character,$spacing,$divider-color)</h3><p>If
- you put this mixin on a list, it will turn it into an inline list 
-separated by a character, slash by default. Good for breadcrumb trails 
-or divided lists.</p><h4>Parameters</h4><dl><dt>$character</dt><dd>The character that divides the list items. Default is '/'.</dd><dt>$spacing</dt><dd>How much space between each item. Default is 10px.</dd><dt>$divider-color</dt><dd>Color of the list item divider. Default is #CDCDCD</dd></dl><h4>Examples</h4><div class="example"><pre>p
-  breadcrumb()</pre><div class="el"><ul class="breadcrumb"><li>One</li><li>Two</li><li>Three</li></ul></div></div><div class="example"><pre>p
-  breadcrumb: '&gt;'</pre><div class="el"><ul class="breadcrumb2"><li>One</li><li>Two</li><li>Three</li></ul></div></div><div class="example"><pre>p
-  breadcrumb: '~' 25px red</pre><div class="el"><ul class="breadcrumb3"><li>One</li><li>Two</li><li>Three</li></ul></div></div></section><hr><section><h3 id="bubble">bubble($pos0,$pos1,$color,$width,$triangle-size,$padding,$triangle-color)</h3><p>Creates a bubble with a little pointer with pure css. A lot of customizable options on this one.</p><h4>Parameters</h4><dl><dt>$pos0</dt><dd>Put the triangle on the left or right side of the bubble. Default is left.</dd><dt>$pos1</dt><dd>Put the triangle on the top or bottom of the bubble. Default is bottom.</dd><dt>$color</dt><dd>Color of the bubble. Default is #EEEEEE.</dd><dt>$width</dt><dd>Width of the bubble, if you need to set a hard width.</dd><dt>$triangle-size</dt><dd>Size of the triangle pointer. Default is 10px</dd><dt>$padding</dt><dd>Padding around the contents of the bubble. Default is 10px.</dd><dt>$triangle-color</dt><dd>Color of the triangle pointer. Default is 3% darker than the color, to account for the gradient.</dd></dl><h4>Examples</h4><div class="example"><pre>.bubble
-  bubble()</pre><div class="el"><div class="bubble">So bubbly, wow</div></div></div><div class="example"><pre>.bubble
-  bubble: top center #57777E</pre><div class="el"><div class="bubble2">So bubbly, wow</div></div></div><div class="example"><pre>.bubble
-  bubble(pos0: bottom, pos1: right, triangleSize: 15px, triangleColor: red)</pre><div class="el"><div class="bubble3">So bubbly, wow</div></div></div></section><hr><section><h3 id="figure">figure($color,$dimensions)</h3><p>For when you want to 'semantically' show an image. Put this on your <code>&lt;figure/&gt;</code> element and it will style the nested image and figcaption in a wonderfully pleasing manner.</p><h4>Parameters</h4><dl><dt>$color</dt><dd>Color theme for the figure display. Default is blue.</dd><dt>$dimensions</dt><dd>The size of the image, if you need it. Since this is a list, you need to call with parens if you are using this parameter.</dd></dl><h4>Examples</h4><div class="example"><pre>p
-  figure: red</pre><div class="el"><figure class="figure"><img src="Axis_files/doge.png"><figcaption>A fine specimen of doge</figcaption></figure></div></div></section><hr><section><h3 id="flash">flash($type)</h3><p>A notification for 'flash' alerts, generally letting the user know about something like a success or failure.</p><h4>Parameters</h4><dl><dt>$type</dt><dd>Can be "notice", "success", "warning", or "error". Default is "notice".</dd></dl><h4>Examples</h4><div class="example"><pre>.flash
-  flash()</pre><div class="el"><div class="flash">Hey, something happened</div></div></div><div class="example"><pre>.flash
-  flash: 'warning'</pre><div class="el"><div class="flash2">Your computer will explode in 5 minutes</div></div></div><div class="example"><pre>.flash
-  flash: 'error'</pre><div class="el"><div class="flash3">Your computer has exploded. How are you reading this?</div></div></div><div class="example"><pre>.flash
-  flash: 'success'</pre><div class="el"><div class="flash4">You have saved your computer from certain doom!</div></div></div></section><hr><section><h3 id="icon-arrow">icon-arrow($direction,$size,$color,$stroke)</h3><p>Creates a clean, customizable arrow icon in pure css. Useful for navigation.</p><h4>Parameters</h4><dl><dt>$direction</dt><dd>Direction the arrow "up", "down", "left", or "right". Default is "right".</dd><dt>$size</dt><dd>Size of the icon. Default is 40px.</dd><dt>$color</dt><dd>Color of the icon. Default is #888.</dd><dt>$stroke</dt><dd>Icon line width. Default is 1px.</dd></dl><h4>Examples</h4><div class="example"><pre>span
-  icon-arrow()</pre><div class="el"><span class="arrow"></span></div></div><div class="example"><pre>.arrow-left
-  icon-arrow(left, 20px, blue, 3px)</pre><div class="el"><span class="arrow-left"></span></div></div><div class="example"><pre>.arrow-down
-  icon-arrow(down, 50px, blue, 7px)</pre><div class="el"><span class="arrow-down"></span></div></div></section><hr><section><h3 id="icon-x">icon-x($size,$color,$stroke)</h3><p>Creates a clean, customizable "x" icon in pure css. Useful for close and delete interactions.</p><h4>Parameters</h4><dl><dt>$size</dt><dd>Size of the icon. Default is 40px.</dd><dt>$color</dt><dd>Color of the icon. Default is #888.</dd><dt>$stroke</dt><dd>Icon line width. Default is 1px.</dd></dl><h4>Examples</h4><div class="example"><pre>span
-  icon-x()</pre><div class="el"><span class="close"></span></div></div><div class="example"><pre>.delete
-  icon-x(20px, orange, 5px)</pre><div class="el"><span class="delete"></span></div></div></section><hr><section><h3 id="navigation">navigation($size,$bg-color,$link-color,$pos-fixed)</h3><p>A
- simple and flexible bootstrap-esque navigation bar. Requires a certain 
-html structure: a 'h1' is the site title on the left, and a 'ul' 
-containing 'li's which contain 'a's show the links on the right.</p><h4>Parameters</h4><dl><dt>$size</dt><dd>An integer from 1 to X, specifying an arbitrary scale. Try a couple different numbers to get what's best for you. Default is 1.</dd><dt>$bg-color</dt><dd>The color of the navigation bar's background. Default is #222.</dd><dt>$link-color</dt><dd>The color of the navigation links. Default is white.</dd><dt>$pos-fixed</dt><dd>Boolean, whether the nav bar should be fixed to the top of the window or not.</dd></dl><h4>Examples</h4><div class="example"><pre>nav
-  nav()</pre><div class="el"><div class="nav"><h1>Example Site</h1><ul><li><a href="#">About</a></li></ul></div></div></div></section><hr><section><h3 id="notice">notice($width,$color,$padding)</h3><p>A more generic and customizable version of a flash alert. Outputs a colored box with a light gradient, fully customizable.</p><h4>Parameters</h4><dl><dt>$width</dt><dd>Hard width of the box, if you need it. No default.</dd><dt>$color</dt><dd>The base color of the box. Default is #eee</dd><dt>$padding</dt><dd>Padding between the box and content. Default is 10px.</dd></dl><h4>Examples</h4><div class="example"><pre>.notice
-  notice()</pre><div class="el"><div class="notice">Hey, something happened!</div></div></div><div class="example"><pre>.notice
-  notice: 200px #D4EEF8</pre><div class="el"><div class="notice2">Look at my fancy colors!</div></div></div></section><!-- Utilities--><div class="intro"><h1 id="utilities">Utilities</h1><p>A grab bag of various useful mixins that don't fit into any other category.</p></div><section><h3 id="b">b(arguments)</h3><p>A shorter version of 'border' that also includes the intelligent default of '1px solid' if no args passed</p><h4>Parameters</h4><dl><dt>arguments</dt><dd>Same as the arguments you'd normally pass to 'border'. Default 1px solid.</dd></dl><h4>Examples</h4><div class="example"><pre>.el
-  b()</pre><div class="el"><div class="b">Check out my border</div></div></div></section><hr><section><h3 id="debug">debug()</h3><p>Debugging
- tool - adds a border to the current element, its children, 
-grandchildren, etc so you can see what's up – great for precise layout 
-tweaks.  It will also add flags if you made mistakes like put in inline 
-styles, forgot an alt on an image, left the alt blank, etc. Not to be 
-used in production, obviously. <a href="http://codepen.io/dbox/full/GJZzYo">View the demo</a>.</p></section><hr><section><h3 id="no-select">no-select()</h3><p>Makes the text in an element un-selectable. This is good for things like buttons so that a double click doesn't select the text.</p><h4>Examples</h4><div class="example"><pre>.selector
-  no-select()</pre><div class="el"><div class="no-select">Try to highlight me. Just try.</div></div></div></section><hr><section><h3 id="open-type-ligatures">open-type-ligatures()</h3><p>The
- vast majority of fonts contain lowercase and uppercase alphabets, 
-numerals, punctuation and accents. Many professionally-designed fonts 
-also contain ligatures, alternative characters, smallcaps, different 
-kinds of numbers, and sometimes much more besides. This enables it.</p><h4>Examples</h4><div class="example"><pre>.selector
-  open-type-ligatures()</pre><div class="el"></div></div></section><hr><section><h3 id="quantity-at-least">quantity-at-least($count,$selector)</h3><p><a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on a minimum number of <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element. <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a></p><h4>Parameters</h4><dl><dt>$count</dt><dd>Minimum number of siblings</dd><dt>$selector</dt><dd>Css selector to be used. Default is &lt;li&gt;.</dd></dl><h4>Examples</h4><div class="example"><pre>ul
+  text-margin()</pre>
+          <div class="el">
+            <p class="text-margin">Look at these great margins</p>
+            <p class="text-margin">So great.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="text-selection">text-selection($color,$text-color)</h3>
+        <p>Sets the text select color intelligently based on the highlight-color variable found in the settings file. Intended
+          to be used at the root, for the whole document rather than at one element.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Override the highlight background with a custom color. Defaults to highlight-color.</dd>
+          <dt>$text-color</dt>
+          <dd>Override the text color. Default is black or white based on contrast detection.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>text-selection()</pre>
+          <div class="el">
+            <p class="text-selection">Try selecting me!</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="ul">ul($style)</h3>
+        <p>Nice clean and scalable defaults for unorganized lists.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$style</dt>
+          <dd>Any style that 'list-style-type' would normally take. Default is 'disc'.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
+  ul()</pre>
+          <div class="el">
+            <ul class="ul">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+        <div class="example">
+          <pre>ul
+  ul: 'square'</pre>
+          <div class="el">
+            <ul class="ul2">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="uppercase">uppercase()</h3>
+        <p>A quicker alias for text-transform: uppercase. You can also use the alias 'upcase' to get the same effects.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>h5
+  uppercase()</pre>
+          <div class="el">
+            <h5 class="uppercase">ALL CAPS HEADING</h5>
+          </div>
+        </div>
+        <div class="example">
+          <pre>h5
+  upcase()</pre>
+          <div class="el">
+            <h5 class="uppercase2">ANOTHER ALL CAPS HEADING</h5>
+          </div>
+        </div>
+      </section>
+      <!-- Ui-->
+      <div class="intro">
+        <h1 id="ui">UI</h1>
+        <p>A set of flexible shortcuts for creating common UI elements.</p>
+      </div>
+      <section>
+        <h3 id="area">area($color)</h3>
+        <p>Just a nice little area for you to put content in. Rounded corners, box with a light grey background by default.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Background color of the area. Default is #F5F5F5.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
+  area()</pre>
+          <div class="el">
+            <div class="area">Hi there, I'm a nicely defined little area of content!</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>p
+  area: #D4EEF8</pre>
+          <div class="el">
+            <div class="area2">I'm an area with a kind of blue-ish background.</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="breadcrumb">breadcrumb($character,$spacing,$divider-color)</h3>
+        <p>If you put this mixin on a list, it will turn it into an inline list separated by a character, slash by default.
+          Good for breadcrumb trails or divided lists.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$character</dt>
+          <dd>The character that divides the list items. Default is '/'.</dd>
+          <dt>$spacing</dt>
+          <dd>How much space between each item. Default is 10px.</dd>
+          <dt>$divider-color</dt>
+          <dd>Color of the list item divider. Default is #CDCDCD</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
+  breadcrumb()</pre>
+          <div class="el">
+            <ul class="breadcrumb">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+        <div class="example">
+          <pre>p
+  breadcrumb: '&gt;'</pre>
+          <div class="el">
+            <ul class="breadcrumb2">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+        <div class="example">
+          <pre>p
+  breadcrumb: '~' 25px red</pre>
+          <div class="el">
+            <ul class="breadcrumb3">
+              <li>One</li>
+              <li>Two</li>
+              <li>Three</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="bubble">bubble($pos0,$pos1,$color,$width,$triangle-size,$padding,$triangle-color)</h3>
+        <p>Creates a bubble with a little pointer with pure css. A lot of customizable options on this one.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$pos0</dt>
+          <dd>Put the triangle on the left or right side of the bubble. Default is left.</dd>
+          <dt>$pos1</dt>
+          <dd>Put the triangle on the top or bottom of the bubble. Default is bottom.</dd>
+          <dt>$color</dt>
+          <dd>Color of the bubble. Default is #EEEEEE.</dd>
+          <dt>$width</dt>
+          <dd>Width of the bubble, if you need to set a hard width.</dd>
+          <dt>$triangle-size</dt>
+          <dd>Size of the triangle pointer. Default is 10px</dd>
+          <dt>$padding</dt>
+          <dd>Padding around the contents of the bubble. Default is 10px.</dd>
+          <dt>$triangle-color</dt>
+          <dd>Color of the triangle pointer. Default is 3% darker than the color, to account for the gradient.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.bubble
+  bubble()</pre>
+          <div class="el">
+            <div class="bubble">So bubbly, wow</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.bubble
+  bubble: top center #57777E</pre>
+          <div class="el">
+            <div class="bubble2">So bubbly, wow</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.bubble
+  bubble(pos0: bottom, pos1: right, triangleSize: 15px, triangleColor: red)</pre>
+          <div class="el">
+            <div class="bubble3">So bubbly, wow</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="figure">figure($color,$dimensions)</h3>
+        <p>For when you want to 'semantically' show an image. Put this on your
+          <code>&lt;figure/&gt;</code> element and it will style the nested image and figcaption in a wonderfully pleasing manner.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$color</dt>
+          <dd>Color theme for the figure display. Default is blue.</dd>
+          <dt>$dimensions</dt>
+          <dd>The size of the image, if you need it. Since this is a list, you need to call with parens if you are using this
+            parameter.
+          </dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>p
+  figure: red</pre>
+          <div class="el">
+            <figure class="figure">
+              <img src="Axis_files/doge.png">
+              <figcaption>A fine specimen of doge</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="flash">flash($type)</h3>
+        <p>A notification for 'flash' alerts, generally letting the user know about something like a success or failure.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$type</dt>
+          <dd>Can be "notice", "success", "warning", or "error". Default is "notice".</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.flash
+  flash()</pre>
+          <div class="el">
+            <div class="flash">Hey, something happened</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.flash
+  flash: 'warning'</pre>
+          <div class="el">
+            <div class="flash2">Your computer will explode in 5 minutes</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.flash
+  flash: 'error'</pre>
+          <div class="el">
+            <div class="flash3">Your computer has exploded. How are you reading this?</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.flash
+  flash: 'success'</pre>
+          <div class="el">
+            <div class="flash4">You have saved your computer from certain doom!</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="icon-arrow">icon-arrow($direction,$size,$color,$stroke)</h3>
+        <p>Creates a clean, customizable arrow icon in pure css. Useful for navigation.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$direction</dt>
+          <dd>Direction the arrow "up", "down", "left", or "right". Default is "right".</dd>
+          <dt>$size</dt>
+          <dd>Size of the icon. Default is 40px.</dd>
+          <dt>$color</dt>
+          <dd>Color of the icon. Default is #888.</dd>
+          <dt>$stroke</dt>
+          <dd>Icon line width. Default is 1px.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>span
+  icon-arrow()</pre>
+          <div class="el">
+            <span class="arrow"></span>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.arrow-left
+  icon-arrow(left, 20px, blue, 3px)</pre>
+          <div class="el">
+            <span class="arrow-left"></span>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.arrow-down
+  icon-arrow(down, 50px, blue, 7px)</pre>
+          <div class="el">
+            <span class="arrow-down"></span>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="icon-x">icon-x($size,$color,$stroke)</h3>
+        <p>Creates a clean, customizable "x" icon in pure css. Useful for close and delete interactions.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$size</dt>
+          <dd>Size of the icon. Default is 40px.</dd>
+          <dt>$color</dt>
+          <dd>Color of the icon. Default is #888.</dd>
+          <dt>$stroke</dt>
+          <dd>Icon line width. Default is 1px.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>span
+  icon-x()</pre>
+          <div class="el">
+            <span class="close"></span>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.delete
+  icon-x(20px, orange, 5px)</pre>
+          <div class="el">
+            <span class="delete"></span>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="navigation">navigation($size,$bg-color,$link-color,$pos-fixed)</h3>
+        <p>A simple and flexible bootstrap-esque navigation bar. Requires a certain html structure: a 'h1' is the site title
+          on the left, and a 'ul' containing 'li's which contain 'a's show the links on the right.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$size</dt>
+          <dd>An integer from 1 to X, specifying an arbitrary scale. Try a couple different numbers to get what's best for you.
+            Default is 1.</dd>
+          <dt>$bg-color</dt>
+          <dd>The color of the navigation bar's background. Default is #222.</dd>
+          <dt>$link-color</dt>
+          <dd>The color of the navigation links. Default is white.</dd>
+          <dt>$pos-fixed</dt>
+          <dd>Boolean, whether the nav bar should be fixed to the top of the window or not.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>nav
+  nav()</pre>
+          <div class="el">
+            <div class="nav">
+              <h1>Example Site</h1>
+              <ul>
+                <li>
+                  <a href="#">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="notice">notice($width,$color,$padding)</h3>
+        <p>A more generic and customizable version of a flash alert. Outputs a colored box with a light gradient, fully customizable.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$width</dt>
+          <dd>Hard width of the box, if you need it. No default.</dd>
+          <dt>$color</dt>
+          <dd>The base color of the box. Default is #eee</dd>
+          <dt>$padding</dt>
+          <dd>Padding between the box and content. Default is 10px.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.notice
+  notice()</pre>
+          <div class="el">
+            <div class="notice">Hey, something happened!</div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.notice
+  notice: 200px #D4EEF8</pre>
+          <div class="el">
+            <div class="notice2">Look at my fancy colors!</div>
+          </div>
+        </div>
+      </section>
+      <!-- Utilities-->
+      <div class="intro">
+        <h1 id="utilities">Utilities</h1>
+        <p>A grab bag of various useful mixins that don't fit into any other category.</p>
+      </div>
+      <section>
+        <h3 id="b">b(arguments)</h3>
+        <p>A shorter version of 'border' that also includes the intelligent default of '1px solid' if no args passed</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>arguments</dt>
+          <dd>Same as the arguments you'd normally pass to 'border'. Default 1px solid.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.el
+  b()</pre>
+          <div class="el">
+            <div class="b">Check out my border</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="debug">debug()</h3>
+        <p>Debugging tool - adds a border to the current element, its children, grandchildren, etc so you can see what's up
+          – great for precise layout tweaks. It will also add flags if you made mistakes like put in inline styles, forgot
+          an alt on an image, left the alt blank, etc. Not to be used in production, obviously.
+          <a href="http://codepen.io/dbox/full/GJZzYo">View the demo</a>.</p>
+      </section>
+      <hr>
+      <section>
+        <h3 id="no-select">no-select()</h3>
+        <p>Makes the text in an element un-selectable. This is good for things like buttons so that a double click doesn't select
+          the text.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  no-select()</pre>
+          <div class="el">
+            <div class="no-select">Try to highlight me. Just try.</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="open-type-ligatures">open-type-ligatures()</h3>
+        <p>The vast majority of fonts contain lowercase and uppercase alphabets, numerals, punctuation and accents. Many professionally-designed
+          fonts also contain ligatures, alternative characters, smallcaps, different kinds of numbers, and sometimes much
+          more besides. This enables it.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.selector
+  open-type-ligatures()</pre>
+          <div class="el"></div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="quantity-at-least">quantity-at-least($count,$selector)</h3>
+        <p>
+          <a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on a minimum number of
+          <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a
+          <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element.
+          <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a>
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$count</dt>
+          <dd>Minimum number of siblings</dd>
+          <dt>$selector</dt>
+          <dd>Css selector to be used. Default is &lt;li&gt;.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
   +quantity-at-least(3, li)
-     border: 1px solid red</pre><div class="el"><div class="quantity-query at-least"><ul><li>one</li><li>two</li><li>three</li><li>four</li></ul><p>Since there are at least 3 list items, they are colored red.</p></div></div></div></section><hr><section><h3 id="quantity-at-most">quantity-at-most($count,$selector)</h3><p><a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on a maxium number of <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element. <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a></p><h4>Parameters</h4><dl><dt>$count</dt><dd>Maxium number of siblings</dd><dt>$selector</dt><dd>Css selector to be used. Default is &lt;li&gt;.</dd></dl><h4>Examples</h4><div class="example"><pre>ul
+     border: 1px solid red</pre>
+          <div class="el">
+            <div class="quantity-query at-least">
+              <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+              </ul>
+              <p>Since there are at least 3 list items, they are colored red.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="quantity-at-most">quantity-at-most($count,$selector)</h3>
+        <p>
+          <a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on a maxium number of
+          <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a
+          <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element.
+          <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a>
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$count</dt>
+          <dd>Maxium number of siblings</dd>
+          <dt>$selector</dt>
+          <dd>Css selector to be used. Default is &lt;li&gt;.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
   +quantity-at-most(7)
-     border: 1px solid blue</pre><div class="el"><div class="quantity-query at-most"><ul><li>one</li><li>two</li><li>three</li><li>four</li></ul><p>Since there are at most 7 list items, they are colored blue.</p></div></div></div></section><hr><section><h3 id="quantity-between">quantity-between($start,$end,$selector)</h3><p><a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on a range of <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element. <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a></p><h4>Parameters</h4><dl><dt>$start</dt><dd>starting number of siblings</dd><dt>$end</dt><dd>ending number of siblings</dd><dt>$selector</dt><dd>Css selector to be used. Default is &lt;li&gt;.</dd></dl><h4>Examples</h4><div class="example"><pre>ul
+     border: 1px solid blue</pre>
+          <div class="el">
+            <div class="quantity-query at-most">
+              <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+              </ul>
+              <p>Since there are at most 7 list items, they are colored blue.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="quantity-between">quantity-between($start,$end,$selector)</h3>
+        <p>
+          <a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on a range of
+          <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a
+          <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element.
+          <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a>
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$start</dt>
+          <dd>starting number of siblings</dd>
+          <dt>$end</dt>
+          <dd>ending number of siblings</dd>
+          <dt>$selector</dt>
+          <dd>Css selector to be used. Default is &lt;li&gt;.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
   +quantity-between(1, 10, span)
-     border: 1px solid green</pre><div class="el"><div class="quantity-query between"><div><span>span 1</span><span>span 2</span><span>span 3</span><span>span 4</span><p>Since there are between 1 and 10 spans, they are colored green.</p></div></div></div></div></section><hr><section><h3 id="quantity-exactly">quantity-exactly($count,$selector)</h3><p><a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on an exact number of <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element. <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a></p><h4>Parameters</h4><dl><dt>$count</dt><dd>Exact number of siblings</dd><dt>$selector</dt><dd>Css selector to be used. Default is &lt;li&gt;.</dd></dl><h4>Examples</h4><div class="example"><pre>ul
+     border: 1px solid green</pre>
+          <div class="el">
+            <div class="quantity-query between">
+              <div>
+                <span>span 1</span>
+                <span>span 2</span>
+                <span>span 3</span>
+                <span>span 4</span>
+                <p>Since there are between 1 and 10 spans, they are colored green.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="quantity-exactly">quantity-exactly($count,$selector)</h3>
+        <p>
+          <a href="https://github.com/pascalduez/postcss-quantity-queries">Quantity query</a> to set rules for a selector based on an exact number of
+          <a href="http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/">siblings</a>. To use, set it as a
+          <a href="https://learnboost.github.io/stylus/docs/mixins.html#block-mixins">block mixin</a> on the parent element.
+          <a href="http://codepen.io/dbox/pen/waeQOL">Demo here.</a>
+        </p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$count</dt>
+          <dd>Exact number of siblings</dd>
+          <dt>$selector</dt>
+          <dd>Css selector to be used. Default is &lt;li&gt;.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>ul
   +quantity-exactly(4)
-     border: 1px solid orange</pre><div class="el"><div class="quantity-query exactly"><ul><li>one</li><li>two</li><li>three</li><li>four</li></ul><p>Since there are exactly 4 list items, they are colored orange.</p></div></div></div></section><hr><section><h3 id="rem">rem($value)</h3><p>Calculates and returns the rem value based on px input.</p><h4>Parameters</h4><dl><dt>$value</dt><dd>Number in px</dd></dl><h4>Examples</h4><div class="example"><pre>h5
-  font-size: rem(24px)</pre><div class="el"><div class="rem-calculator"><h5>This font size is set to 24px but renders in the browser as 1.5rem.</h5></div></div></div><div class="example"><pre>div
-  width: rem(150)</pre><div class="el"><div class="rem-calculator"><div>This div's width is set to 150px, but renders as 9.375rem.</div></div></div></div></section><hr><section><h3 id="rounded">rounded()</h3><p>Round the corners of an element as much as css will allow.</p><h4>Examples</h4><div class="example"><pre>.btn
+     border: 1px solid orange</pre>
+          <div class="el">
+            <div class="quantity-query exactly">
+              <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+              </ul>
+              <p>Since there are exactly 4 list items, they are colored orange.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="rem">rem($value)</h3>
+        <p>Calculates and returns the rem value based on px input.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$value</dt>
+          <dd>Number in px</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>h5
+  font-size: rem(24px)</pre>
+          <div class="el">
+            <div class="rem-calculator">
+              <h5>This font size is set to 24px but renders in the browser as 1.5rem.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>div
+  width: rem(150)</pre>
+          <div class="el">
+            <div class="rem-calculator">
+              <div>This div's width is set to 150px, but renders as 9.375rem.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="rounded">rounded()</h3>
+        <p>Round the corners of an element as much as css will allow.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.btn
   button()
-  rounded()</pre><div class="el"><div class="rounded">So round</div></div></div></section><hr><section><h3 id="transition">transition()</h3><p>Transition with an intelligent default.</p><h4>Examples</h4><div class="example"><pre>transition()</pre><div class="el"><code>transition: all .3s ease;</code></div></div><div class="example"><pre>transition: color 1s ease</pre><div class="el"></div></div><div class="example"><pre>transition(color 1s ease, background 2.4s linear)</pre><div class="el"></div></div></section><hr><section><h3 id="triangle">triangle($direction,$size,$color)</h3><p>Makes a customizable css triangle just for you.</p><h4>Parameters</h4><dl><dt>$direction</dt><dd>Direction the triangle points: "up", "down", "left", or "right". Default is "up".</dd><dt>$size</dt><dd>Size of the triangle in pixels. Default is 10px.</dd><dt>$color</dt><dd>Color of the triangle. Default is black.</dd></dl><h4>Examples</h4><div class="example"><pre>.tri
-  triangle()</pre><div class="el"><div class="triangle"></div></div></div><div class="example"><pre>.tri
-  triangle: 'right' 13px lime</pre><div class="el"><div class="triangle2"></div></div></div></section><hr><section><h3 id="vertically-align">vertically-align()</h3><p>Cross browser vertical align. Works down to IE9.</p><h4>Examples</h4><div class="example"><pre>.box
-  vertically-align()</pre><div class="el"><div class="vertically-align"><p>Didn't think it was possible with css, did ya?</p></div></div></div><div class="example"><pre>.box
-  vertically-align(false)</pre><div class="el"><div class="vertically-align false"><p>This was previously vertically aligned, but now it is not.</p></div></div></div></section></main></div><script>'test'</script><script src="Axis_files/jquery.js"></script><script src="Axis_files/build.js"></script></body></html>
+  rounded()</pre>
+          <div class="el">
+            <div class="rounded">So round</div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="transition">transition()</h3>
+        <p>Transition with an intelligent default.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>transition()</pre>
+          <div class="el">
+            <code>transition: all .3s ease;</code>
+          </div>
+        </div>
+        <div class="example">
+          <pre>transition: color 1s ease</pre>
+          <div class="el"></div>
+        </div>
+        <div class="example">
+          <pre>transition(color 1s ease, background 2.4s linear)</pre>
+          <div class="el"></div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="triangle">triangle($direction,$size,$color)</h3>
+        <p>Makes a customizable css triangle just for you.</p>
+        <h4>Parameters</h4>
+        <dl>
+          <dt>$direction</dt>
+          <dd>Direction the triangle points: "up", "down", "left", or "right". Default is "up".</dd>
+          <dt>$size</dt>
+          <dd>Size of the triangle in pixels. Default is 10px.</dd>
+          <dt>$color</dt>
+          <dd>Color of the triangle. Default is black.</dd>
+        </dl>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.tri
+  triangle()</pre>
+          <div class="el">
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.tri
+  triangle: 'right' 13px lime</pre>
+          <div class="el">
+            <div class="triangle2"></div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3 id="vertically-align">vertically-align()</h3>
+        <p>Cross browser vertical align. Works down to IE9.</p>
+        <h4>Examples</h4>
+        <div class="example">
+          <pre>.box
+  vertically-align()</pre>
+          <div class="el">
+            <div class="vertically-align">
+              <p>Didn't think it was possible with css, did ya?</p>
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <pre>.box
+  vertically-align(false)</pre>
+          <div class="el">
+            <div class="vertically-align false">
+              <p>This was previously vertically aligned, but now it is not.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>'test'</script>
+  <script src="Axis_files/jquery.js"></script>
+  <script src="Axis_files/build.js"></script>
+</body>
+
+</html>
