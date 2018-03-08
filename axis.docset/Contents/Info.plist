@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>axis</string>
+	<key>CFBundleName</key>
+	<string>Axis</string>
+	<key>DocSetPlatformFamily</key>
+	<string>axis</string>
+	<key>isDashDocset</key>
+	<true/>
+	<key>DashDocSetFamily</key>
+	<string>dashtoc</string>
+	<key>dashIndexFilePath</key>
+	<string>Axis.html</string>
+	<key>isJavaScriptEnabled</key><false/>
+	<key>DashDocSetFallbackURL</key>
+	<string>http://axis.netlify.com/</string>
+</dict>
+</plist>

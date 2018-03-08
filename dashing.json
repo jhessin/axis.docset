@@ -1,0 +1,17 @@
+{
+    "name": "Axis",
+    "package": "axis",
+    "index": "Axis.html",
+    "selectors": {
+        "main .instruction h1": "Guide",
+        "main .intro h1": "Module",
+        "main section h3": "Mixin",
+        "main section dt": "Variable"
+    },
+    "ignore": [
+        "ABOUT"
+    ],
+    "icon32x32": "http://axis.netlify.com/img/favicon.png",
+    "allowJS": false,
+    "ExternalURL": "http://axis.netlify.com/"
+}
